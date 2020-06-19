@@ -1,0 +1,737 @@
+2020-06-10 17:02:01,072 - ccs -INFO - URL is opened
+2020-06-10 17:03:08,142 - ccs -INFO - URL is opened
+2020-06-10 17:09:10,153 - ccs -INFO - URL is opened
+2020-06-10 17:09:21,449 - ccs -INFO - Entered username
+2020-06-10 17:15:37,140 - ccs -INFO - URL is opened
+2020-06-10 17:15:49,045 - ccs -INFO - Entered username
+2020-06-10 17:17:14,431 - ccs -INFO - URL is opened
+2020-06-10 17:17:25,379 - ccs -INFO - Entered username
+2020-06-10 17:19:20,592 - ccs -INFO - URL is opened
+2020-06-10 17:19:32,549 - ccs -INFO - Entered username
+2020-06-10 17:19:32,741 - ccs -INFO - Entered password
+2020-06-10 17:24:50,092 - ccs -INFO - URL is opened
+2020-06-10 17:25:01,799 - ccs -INFO - Entered username
+2020-06-10 17:25:01,917 - ccs -INFO - Entered password
+2020-06-10 17:39:51,962 - ccs -INFO - URL is opened
+2020-06-10 17:40:07,946 - ccs -INFO - Entered username
+2020-06-10 17:40:08,049 - ccs -INFO - Entered password
+2020-06-10 17:51:11,369 - ccs -INFO - URL is opened
+2020-06-10 17:51:22,565 - ccs -INFO - Entered username
+2020-06-10 17:51:22,778 - ccs -INFO - Entered password
+2020-06-10 18:12:22,880 - ccs -INFO - URL is opened
+2020-06-10 18:12:39,803 - ccs -INFO - Entered username
+2020-06-10 18:12:39,907 - ccs -INFO - Entered password
+2020-06-10 18:15:49,345 - ccs -INFO - URL is opened
+2020-06-10 18:16:00,895 - ccs -INFO - Entered username
+2020-06-10 18:16:01,017 - ccs -INFO - Entered password
+2020-06-10 18:22:59,511 - ccs -INFO - URL is opened
+2020-06-10 18:23:11,104 - ccs -INFO - Entered username
+2020-06-10 18:23:11,212 - ccs -INFO - Entered password
+2020-06-10 18:23:11,280 - ccs -INFO - Click on Sign In
+2020-06-10 18:29:28,722 - ccs -INFO - URL is opened
+2020-06-10 18:29:40,384 - ccs -INFO - Entered username
+2020-06-10 18:29:40,478 - ccs -INFO - Entered password
+2020-06-10 18:29:40,546 - ccs -INFO - Click on Sign In
+2020-06-10 18:31:20,564 - ccs -INFO - Login test passed
+2020-06-10 18:32:39,394 - ccs -INFO - URL is opened
+2020-06-10 18:32:50,831 - ccs -INFO - Entered username
+2020-06-10 18:32:50,944 - ccs -INFO - Entered password
+2020-06-10 18:32:51,003 - ccs -INFO - Click on Sign In
+2020-06-10 18:48:53,598 - ccs -INFO - URL is opened
+2020-06-10 18:49:04,857 - ccs -INFO - Entered username
+2020-06-10 18:49:04,964 - ccs -INFO - Entered password
+2020-06-10 18:49:05,025 - ccs -INFO - Click on Sign In
+2020-06-10 18:56:01,516 - ccs -INFO - URL is opened
+2020-06-10 18:56:13,124 - ccs -INFO - Entered username
+2020-06-10 18:56:13,228 - ccs -INFO - Entered password
+2020-06-10 18:56:13,288 - ccs -INFO - Click on Sign In
+2020-06-10 18:57:53,344 - ccs -INFO - Login test passed
+2020-06-10 19:05:03,145 - ccs -INFO - URL is opened
+2020-06-10 19:05:14,799 - ccs -INFO - Entered username
+2020-06-10 19:05:14,895 - ccs -INFO - Entered password
+2020-06-10 19:05:14,970 - ccs -INFO - Click on Sign In
+2020-06-10 19:06:55,021 - ccs -INFO - Login test passed
+2020-06-10 19:13:34,088 - ccs -INFO - URL is opened
+2020-06-10 19:13:47,971 - ccs -INFO - Entered username
+2020-06-10 19:13:48,058 - ccs -INFO - Entered password
+2020-06-10 19:13:48,129 - ccs -INFO - Click on Sign In
+2020-06-10 19:15:28,182 - ccs -INFO - Login test passed
+2020-06-11 17:14:36,488 - ccs -INFO - URL is opened
+2020-06-11 17:14:46,741 - ccs -INFO - Entered username
+2020-06-11 17:14:46,851 - ccs -INFO - Entered password
+2020-06-11 17:14:46,923 - ccs -INFO - Click on Sign In
+2020-06-11 17:18:42,679 - ccs -INFO - URL is opened
+2020-06-11 17:18:53,029 - ccs -INFO - Entered username
+2020-06-11 17:18:53,142 - ccs -INFO - Entered password
+2020-06-11 17:18:53,212 - ccs -INFO - Click on Sign In
+2020-06-11 17:20:33,309 - ccs -INFO - Login test passed
+2020-06-11 17:27:31,700 - ccs -INFO - URL is opened
+2020-06-11 17:27:41,692 - ccs -INFO - Entered username
+2020-06-11 17:27:41,817 - ccs -INFO - Entered password
+2020-06-11 17:27:41,884 - ccs -INFO - Click on Sign In
+2020-06-11 17:29:21,954 - ccs -INFO - Login test passed
+2020-06-11 17:34:30,086 - ccs -INFO - URL is opened
+2020-06-11 17:34:39,766 - ccs -INFO - Entered username
+2020-06-11 17:34:39,889 - ccs -INFO - Entered password
+2020-06-11 17:34:39,951 - ccs -INFO - Click on Sign In
+2020-06-11 17:36:19,995 - ccs -INFO - Login test passed
+2020-06-11 17:36:33,570 - ccs -INFO - user name provided
+2020-06-11 17:36:33,684 - ccs -INFO - password provided
+2020-06-11 17:36:33,748 - ccs -INFO - Click on Sign in
+2020-06-11 17:36:36,771 - ccs -WARN - Login passed
+2020-06-11 17:39:15,025 - ccs -INFO - URL is opened
+2020-06-11 17:39:25,599 - ccs -INFO - Entered username
+2020-06-11 17:39:25,716 - ccs -INFO - Entered password
+2020-06-11 17:39:25,801 - ccs -INFO - Click on Sign In
+2020-06-11 17:43:06,727 - ccs -INFO - Login test passed
+2020-06-11 17:43:19,233 - ccs -INFO - user name provided
+2020-06-11 17:43:19,356 - ccs -INFO - password provided
+2020-06-11 17:43:19,430 - ccs -INFO - Click on Sign in
+2020-06-11 17:44:19,498 - ccs -WARN - Login passed
+2020-06-11 17:53:36,779 - ccs -INFO - URL is opened
+2020-06-11 17:53:47,147 - ccs -INFO - Entered username
+2020-06-11 17:53:47,262 - ccs -INFO - Entered password
+2020-06-11 17:53:47,334 - ccs -INFO - Click on Sign In
+2020-06-11 17:55:27,422 - ccs -INFO - Login test passed
+2020-06-11 17:55:41,017 - ccs -INFO - user name provided
+2020-06-11 17:55:41,135 - ccs -INFO - password provided
+2020-06-11 17:55:41,219 - ccs -INFO - Click on Sign in
+2020-06-11 17:56:41,300 - ccs -WARN - Login passed
+2020-06-11 18:12:54,037 - ccs -INFO - URL is opened
+2020-06-11 18:13:06,138 - ccs -INFO - Entered username
+2020-06-11 18:13:06,244 - ccs -INFO - Entered password
+2020-06-11 18:13:06,310 - ccs -INFO - Click on Sign In
+2020-06-11 18:14:46,390 - ccs -INFO - Login test passed
+2020-06-11 18:15:31,554 - ccs -INFO - Click on Sign In
+2020-06-11 18:15:48,039 - ccs -INFO - URL is opened
+2020-06-11 18:15:58,308 - ccs -INFO - Entered username
+2020-06-11 18:15:58,423 - ccs -INFO - Entered password
+2020-06-11 18:15:58,491 - ccs -INFO - Click on Sign In
+2020-06-11 18:17:38,511 - ccs -INFO - Login test passed
+2020-06-11 18:19:59,928 - ccs -INFO - URL is opened
+2020-06-11 18:20:10,182 - ccs -INFO - Entered username
+2020-06-11 18:20:10,284 - ccs -INFO - Entered password
+2020-06-11 18:20:10,341 - ccs -INFO - Click on Sign In
+2020-06-11 18:21:50,429 - ccs -INFO - Login test passed
+2020-06-11 18:22:35,584 - ccs -INFO - Sign off successfully
+2020-06-11 18:24:54,228 - ccs -INFO - URL is opened
+2020-06-11 18:25:04,687 - ccs -INFO - Entered username
+2020-06-11 18:25:04,793 - ccs -INFO - Entered password
+2020-06-11 18:25:04,863 - ccs -INFO - Click on Sign In
+2020-06-11 18:25:49,929 - ccs -INFO - Login test passed
+2020-06-11 18:25:53,145 - ccs -INFO - User is Sign off
+2020-06-11 18:26:34,899 - ccs -INFO - URL is opened
+2020-06-11 18:26:45,047 - ccs -INFO - Entered username
+2020-06-11 18:26:45,179 - ccs -INFO - Entered password
+2020-06-11 18:26:45,237 - ccs -INFO - Click on Sign In
+2020-06-11 18:27:30,321 - ccs -INFO - Login test passed
+2020-06-11 18:28:35,218 - ccs -INFO - URL is opened
+2020-06-11 18:28:45,653 - ccs -INFO - Entered username
+2020-06-11 18:28:45,752 - ccs -INFO - Entered password
+2020-06-11 18:28:45,817 - ccs -INFO - Click on Sign In
+2020-06-11 18:29:30,871 - ccs -INFO - Login test passed
+2020-06-11 18:29:34,060 - ccs -INFO - User is Sign off
+2020-06-11 18:38:26,993 - ccs -INFO - user name provided
+2020-06-11 18:38:27,108 - ccs -INFO - password provided
+2020-06-11 18:38:27,173 - ccs -INFO - Click on Sign in
+2020-06-11 18:39:27,300 - ccs -WARN - Login passed
+2020-06-11 18:50:17,314 - ccs -INFO - user name provided
+2020-06-11 18:50:17,427 - ccs -INFO - password provided
+2020-06-11 18:50:17,506 - ccs -INFO - Click on Sign in
+2020-06-11 18:51:17,528 - ccs -WARN - Login passed
+2020-06-11 18:57:38,589 - ccs -INFO - user name provided
+2020-06-11 18:57:38,697 - ccs -INFO - password provided
+2020-06-11 18:57:38,765 - ccs -INFO - Click on Sign in
+2020-06-11 18:58:38,855 - ccs -WARN - Login passed
+2020-06-11 18:58:38,926 - ccs -WARN - user is sign off
+2020-06-11 19:00:27,717 - ccs -INFO - user name provided
+2020-06-11 19:00:27,838 - ccs -INFO - password provided
+2020-06-11 19:00:27,909 - ccs -INFO - Click on Sign in
+2020-06-11 19:01:28,012 - ccs -WARN - Login passed
+2020-06-11 19:01:28,108 - ccs -WARN - user is sign off
+2020-06-11 19:15:08,842 - ccs -INFO - user name provided
+2020-06-11 19:15:08,976 - ccs -INFO - password provided
+2020-06-11 19:15:09,049 - ccs -INFO - Click on Sign in
+2020-06-11 19:15:39,100 - ccs -INFO - Login test passed
+2020-06-11 19:15:42,353 - ccs -INFO - User is Sign off
+2020-06-11 19:20:12,092 - ccs -INFO - user name provided
+2020-06-11 19:20:12,218 - ccs -INFO - password provided
+2020-06-11 19:20:12,297 - ccs -INFO - Click on Sign in
+2020-06-11 19:20:42,338 - ccs -INFO - Login test passed
+2020-06-11 19:22:22,142 - ccs -INFO - user name provided
+2020-06-11 19:22:22,280 - ccs -INFO - password provided
+2020-06-11 19:22:22,359 - ccs -INFO - Click on Sign in
+2020-06-11 19:22:52,407 - ccs -INFO - Login test passed
+2020-06-11 19:22:55,604 - ccs -INFO - User is Sign off
+2020-06-11 19:24:00,940 - ccs -INFO - user name provided
+2020-06-11 19:24:01,141 - ccs -INFO - password provided
+2020-06-11 19:24:01,241 - ccs -INFO - Click on Sign in
+2020-06-11 19:24:31,292 - ccs -INFO - Login test passed
+2020-06-11 19:24:34,512 - ccs -INFO - User is Sign off
+2020-06-11 19:29:51,314 - ccs -INFO - user name provided
+2020-06-11 19:29:51,432 - ccs -INFO - password provided
+2020-06-11 19:29:51,513 - ccs -INFO - Click on Sign in
+2020-06-11 19:30:21,658 - ccs -INFO - Login test passed
+2020-06-11 19:30:25,283 - ccs -INFO - User is Sign off
+2020-06-11 19:36:01,228 - ccs -INFO - user name provided
+2020-06-11 19:36:01,569 - ccs -INFO - password provided
+2020-06-11 19:36:01,656 - ccs -INFO - Click on Sign in
+2020-06-11 19:36:31,752 - ccs -INFO - Login test passed
+2020-06-12 11:18:57,834 - ccs -INFO - user name provided
+2020-06-12 11:18:57,995 - ccs -INFO - password provided
+2020-06-12 11:18:58,082 - ccs -INFO - Click on Sign in
+2020-06-12 11:19:28,130 - ccs -INFO - Login test passed
+2020-06-12 11:19:31,474 - ccs -INFO - User is Sign off
+2020-06-12 11:39:39,587 - ccs -INFO - user name provided
+2020-06-12 11:39:39,720 - ccs -INFO - password provided
+2020-06-12 11:39:39,792 - ccs -INFO - Click on Sign in
+2020-06-12 11:40:09,850 - ccs -INFO - Login test passed
+2020-06-12 11:40:13,220 - ccs -INFO - User is Sign off
+2020-06-12 14:00:47,714 - ccs -INFO - user name provided
+2020-06-12 14:00:47,844 - ccs -INFO - password provided
+2020-06-12 14:00:47,917 - ccs -INFO - Click on Sign in
+2020-06-12 14:01:17,972 - ccs -INFO - Login test passed
+2020-06-12 14:01:21,202 - ccs -INFO - User is Sign off
+2020-06-12 14:37:12,025 - ccs -INFO - user name provided
+2020-06-12 14:37:12,135 - ccs -INFO - password provided
+2020-06-12 14:37:12,201 - ccs -INFO - Click on Sign in
+2020-06-12 14:37:42,229 - ccs -INFO - Login test passed
+2020-06-12 15:54:52,424 - ccs -INFO - user name provided
+2020-06-12 15:54:52,708 - ccs -INFO - password provided
+2020-06-12 15:59:51,113 - ccs -INFO - user name provided
+2020-06-12 15:59:51,704 - ccs -INFO - password provided
+2020-06-12 16:40:04,894 - ccs -INFO - URL is opened
+2020-06-12 16:40:24,098 - ccs -INFO - Entered username
+2020-06-12 16:40:24,200 - ccs -INFO - Entered password
+2020-06-12 16:40:24,272 - ccs -INFO - Click on Sign In
+2020-06-12 16:44:19,472 - ccs -INFO - URL is opened
+2020-06-12 16:44:34,302 - ccs -INFO - Entered username
+2020-06-12 16:44:34,393 - ccs -INFO - Entered password
+2020-06-12 16:44:34,461 - ccs -INFO - Click on Sign In
+2020-06-12 16:45:19,516 - ccs -INFO - Login test passed
+2020-06-12 16:45:22,784 - ccs -INFO - User is Sign off
+2020-06-12 16:51:34,938 - ccs -INFO - user name provided
+2020-06-12 16:51:35,076 - ccs -INFO - password provided
+2020-06-12 16:51:38,168 - ccs -WARN - Login passed
+2020-06-12 16:53:59,349 - ccs -INFO - user name provided
+2020-06-12 16:53:59,478 - ccs -INFO - password provided
+2020-06-12 16:54:02,556 - ccs -WARN - Login passed
+2020-06-12 16:59:39,687 - ccs -INFO - user name provided
+2020-06-12 16:59:39,852 - ccs -INFO - password provided
+2020-06-12 17:00:29,943 - ccs -WARN - Login passed
+2020-06-12 17:08:34,202 - ccs -INFO - user name provided
+2020-06-12 17:08:34,332 - ccs -INFO - password provided
+2020-06-12 17:09:24,455 - ccs -WARN - Login passed
+2020-06-12 17:14:07,987 - ccs -INFO - user name provided
+2020-06-12 17:14:08,186 - ccs -INFO - password provided
+2020-06-12 17:14:58,291 - ccs -WARN - Login passed
+2020-06-12 17:20:06,790 - ccs -INFO - user name provided
+2020-06-12 17:20:06,952 - ccs -INFO - password provided
+2020-06-12 17:20:57,044 - ccs -WARN - Login passed
+2020-06-12 17:23:45,186 - ccs -INFO - user name provided
+2020-06-12 17:23:45,302 - ccs -INFO - password provided
+2020-06-12 17:24:35,426 - ccs -INFO - Login test passed
+2020-06-12 17:24:38,627 - ccs -INFO - User is Sign off
+2020-06-12 17:33:11,111 - ccs -INFO - user name provided
+2020-06-12 17:33:11,209 - ccs -INFO - password provided
+2020-06-12 17:34:01,299 - ccs -INFO - Login test passed
+2020-06-12 17:34:04,517 - ccs -INFO - User is Sign off
+2020-06-12 17:37:39,715 - ccs -INFO - user name provided
+2020-06-12 17:37:39,824 - ccs -INFO - password provided
+2020-06-12 17:38:29,947 - ccs -INFO - Login test passed
+2020-06-12 17:38:33,210 - ccs -INFO - User is Sign off
+2020-06-12 17:56:02,726 - ccs -INFO - user name provided
+2020-06-12 17:56:02,844 - ccs -INFO - password provided
+2020-06-12 17:56:52,941 - ccs -WARN - Login passed
+2020-06-12 18:18:59,371 - ccs -INFO - user name provided
+2020-06-12 18:18:59,565 - ccs -INFO - password provided
+2020-06-12 18:19:49,667 - ccs -WARN - Login passed
+2020-06-12 18:23:04,334 - ccs -INFO - user name provided
+2020-06-12 18:23:04,499 - ccs -INFO - password provided
+2020-06-12 18:23:54,604 - ccs -WARN - Login passed
+2020-06-12 18:26:47,231 - ccs -INFO - user name provided
+2020-06-12 18:26:47,356 - ccs -INFO - password provided
+2020-06-12 18:27:37,437 - ccs -WARN - Login passed
+2020-06-12 18:30:02,517 - ccs -INFO - user name provided
+2020-06-12 18:30:02,696 - ccs -INFO - password provided
+2020-06-12 18:30:52,829 - ccs -WARN - Login passed
+2020-06-12 18:49:30,278 - ccs -INFO - user name provided
+2020-06-12 18:49:30,444 - ccs -INFO - password provided
+2020-06-12 18:50:20,550 - ccs -WARN - Login passed
+2020-06-12 18:58:36,558 - ccs -INFO - user name provided
+2020-06-12 18:58:36,680 - ccs -INFO - password provided
+2020-06-12 18:59:26,771 - ccs -WARN - Login passed
+2020-06-12 19:03:22,571 - ccs -INFO - user name provided
+2020-06-12 19:03:22,680 - ccs -INFO - password provided
+2020-06-12 19:17:41,625 - ccs -INFO - user name provided
+2020-06-12 19:17:41,765 - ccs -INFO - password provided
+2020-06-12 19:19:51,611 - ccs -INFO - user name provided
+2020-06-12 19:19:51,770 - ccs -INFO - password provided
+2020-06-12 19:19:51,846 - ccs -INFO - user signed in
+2020-06-12 19:46:07,990 - ccs -INFO - user name provided
+2020-06-12 19:46:08,120 - ccs -INFO - password provided
+2020-06-12 19:46:08,189 - ccs -INFO - user signed in
+2020-06-12 19:51:02,761 - ccs -INFO - user name provided
+2020-06-12 19:54:09,250 - ccs -INFO - user name provided
+2020-06-12 19:54:09,434 - ccs -INFO - password provided
+2020-06-12 19:54:09,538 - ccs -INFO - user signed in
+2020-06-12 20:13:33,511 - ccs -INFO - user name provided
+2020-06-12 20:13:33,614 - ccs -INFO - password provided
+2020-06-12 20:13:33,669 - ccs -INFO - user sign in
+2020-06-12 20:19:41,109 - ccs -INFO - user name provided
+2020-06-12 20:19:41,225 - ccs -INFO - password provided
+2020-06-12 20:19:41,288 - ccs -INFO - user sign in
+2020-06-12 20:22:17,795 - ccs -INFO - user name provided
+2020-06-12 20:22:17,941 - ccs -INFO - password provided
+2020-06-12 20:22:18,013 - ccs -INFO - Click on Sign in
+2020-06-12 20:24:42,672 - ccs -INFO - user name provided
+2020-06-12 20:24:42,855 - ccs -INFO - password provided
+2020-06-12 20:24:42,950 - ccs -INFO - Click on Sign in
+2020-06-12 20:25:53,361 - ccs -INFO - Login test passed
+2020-06-12 20:27:55,346 - ccs -INFO - user name provided
+2020-06-12 20:27:55,572 - ccs -INFO - password provided
+2020-06-12 20:27:55,657 - ccs -INFO - Click on Sign in
+2020-06-12 20:29:06,179 - ccs -INFO - Login test passed
+2020-06-12 20:30:25,740 - ccs -INFO - user name provided
+2020-06-12 20:30:25,913 - ccs -INFO - password provided
+2020-06-12 20:30:25,992 - ccs -INFO - Click on Sign in
+2020-06-12 20:31:36,539 - ccs -INFO - Login test passed
+2020-06-12 20:33:04,979 - ccs -INFO - user name provided
+2020-06-12 20:33:05,254 - ccs -INFO - password provided
+2020-06-12 20:33:05,442 - ccs -INFO - Click on Sign in
+2020-06-12 20:34:19,201 - ccs -INFO - Login test passed
+2020-06-12 20:39:37,155 - ccs -INFO - user name provided
+2020-06-12 20:39:37,336 - ccs -INFO - password provided
+2020-06-12 20:39:37,453 - ccs -INFO - Click on Sign in
+2020-06-12 20:40:27,511 - ccs -INFO - Login test passed
+2020-06-12 20:41:17,924 - ccs -INFO - User is Sign off
+2020-06-12 20:43:55,875 - ccs -INFO - user name provided
+2020-06-12 20:43:55,998 - ccs -INFO - password provided
+2020-06-12 20:43:56,073 - ccs -INFO - Click on Sign in
+2020-06-12 20:48:26,255 - ccs -INFO - user name provided
+2020-06-12 20:48:26,371 - ccs -INFO - password provided
+2020-06-12 20:48:26,481 - ccs -INFO - Click on Sign in
+2020-06-12 20:49:16,517 - ccs -INFO - Login test passed
+2020-06-12 20:49:37,020 - ccs -INFO - User is Sign off
+2020-06-12 20:55:39,038 - ccs -INFO - user name provided
+2020-06-12 20:55:39,173 - ccs -INFO - password provided
+2020-06-12 20:55:39,246 - ccs -INFO - Click on Sign in
+2020-06-12 20:57:57,816 - ccs -INFO - user name provided
+2020-06-12 20:57:57,993 - ccs -INFO - password provided
+2020-06-12 20:57:58,086 - ccs -INFO - Click on Sign in
+2020-06-12 20:58:48,174 - ccs -WARN - Login passed
+2020-06-15 11:27:45,928 - ccs -INFO - user name provided
+2020-06-15 11:27:46,029 - ccs -INFO - password provided
+2020-06-15 11:27:46,107 - ccs -INFO - Click on Sign in
+2020-06-15 11:32:47,594 - ccs -INFO - user name provided
+2020-06-15 11:32:47,684 - ccs -INFO - password provided
+2020-06-15 11:32:47,754 - ccs -INFO - Click on Sign in
+2020-06-15 12:06:09,762 - ccs -INFO - user name provided
+2020-06-15 12:06:09,856 - ccs -INFO - password provided
+2020-06-15 12:06:09,914 - ccs -INFO - Click on Sign in
+2020-06-15 12:07:54,611 - ccs -INFO - user name provided
+2020-06-15 12:07:54,699 - ccs -INFO - password provided
+2020-06-15 12:07:54,760 - ccs -INFO - Click on Sign in
+2020-06-15 15:15:29,120 - ccs -INFO - user name provided
+2020-06-15 15:15:29,236 - ccs -INFO - password provided
+2020-06-15 15:15:29,310 - ccs -INFO - Click on Sign in
+2020-06-15 15:24:48,282 - ccs -INFO - user name provided
+2020-06-15 15:24:48,374 - ccs -INFO - password provided
+2020-06-15 15:24:48,442 - ccs -INFO - Click on Sign in
+2020-06-15 15:25:18,460 - ccs -INFO - Login test passed
+2020-06-15 15:28:13,510 - ccs -INFO - user name provided
+2020-06-15 15:28:13,608 - ccs -INFO - password provided
+2020-06-15 15:28:13,691 - ccs -INFO - Click on Sign in
+2020-06-15 15:28:43,708 - ccs -INFO - Login test passed
+2020-06-15 15:31:16,420 - ccs -INFO - user name provided
+2020-06-15 15:31:16,538 - ccs -INFO - password provided
+2020-06-15 15:31:16,607 - ccs -INFO - Click on Sign in
+2020-06-15 15:31:46,639 - ccs -INFO - Login test passed
+2020-06-15 15:36:04,916 - ccs -INFO - user name provided
+2020-06-15 15:36:05,018 - ccs -INFO - password provided
+2020-06-15 15:36:05,074 - ccs -INFO - Click on Sign in
+2020-06-15 15:36:35,122 - ccs -INFO - Login test passed
+2020-06-15 15:37:56,380 - ccs -INFO - user name provided
+2020-06-15 15:37:56,483 - ccs -INFO - password provided
+2020-06-15 15:37:56,556 - ccs -INFO - Click on Sign in
+2020-06-15 15:38:26,585 - ccs -INFO - Login test passed
+2020-06-15 15:40:38,884 - ccs -INFO - user name provided
+2020-06-15 15:40:38,989 - ccs -INFO - password provided
+2020-06-15 15:40:39,047 - ccs -INFO - Click on Sign in
+2020-06-15 15:41:09,096 - ccs -INFO - Login test passed
+2020-06-15 15:42:06,116 - ccs -INFO - user name provided
+2020-06-15 15:42:06,217 - ccs -INFO - password provided
+2020-06-15 15:42:06,279 - ccs -INFO - Click on Sign in
+2020-06-15 15:42:36,320 - ccs -INFO - Login test passed
+2020-06-15 15:44:14,105 - ccs -INFO - user name provided
+2020-06-15 15:44:14,227 - ccs -INFO - password provided
+2020-06-15 15:44:14,288 - ccs -INFO - Click on Sign in
+2020-06-15 15:44:44,304 - ccs -INFO - Login test passed
+2020-06-15 15:47:26,546 - ccs -INFO - user name provided
+2020-06-15 15:47:26,640 - ccs -INFO - password provided
+2020-06-15 15:47:26,696 - ccs -INFO - Click on Sign in
+2020-06-15 15:47:56,749 - ccs -INFO - Login test passed
+2020-06-15 15:48:06,897 - ccs -INFO - User is sign off
+2020-06-15 15:50:45,134 - ccs -INFO - URL is opened
+2020-06-15 15:50:56,493 - ccs -INFO - Entered username
+2020-06-15 15:50:56,605 - ccs -INFO - Entered password
+2020-06-15 15:50:56,670 - ccs -INFO - Click on Sign In
+2020-06-15 15:51:41,693 - ccs -INFO - Login test passed
+2020-06-15 15:51:44,922 - ccs -INFO - User is Sign off
+2020-06-15 15:51:46,182 - ccs -INFO - URL is opened
+2020-06-15 16:01:33,292 - ccs -INFO - URL is opened
+2020-06-15 16:01:49,035 - ccs -INFO - Entered username
+2020-06-15 16:01:49,141 - ccs -INFO - Entered password
+2020-06-15 16:01:49,205 - ccs -INFO - Click on Sign In
+2020-06-15 16:02:34,252 - ccs -INFO - Login test passed
+2020-06-15 16:02:37,411 - ccs -INFO - User is Sign off
+2020-06-15 16:02:37,422 - ccs -INFO - URL is opened
+2020-06-15 16:03:12,631 - ccs -INFO - URL is opened
+2020-06-15 16:04:51,713 - ccs -INFO - URL is opened
+2020-06-15 16:05:03,659 - ccs -INFO - Entered username
+2020-06-15 16:05:03,799 - ccs -INFO - Entered password
+2020-06-15 16:05:03,881 - ccs -INFO - Click on Sign In
+2020-06-15 16:05:48,904 - ccs -INFO - Login test passed
+2020-06-15 16:05:52,088 - ccs -INFO - User is Sign off
+2020-06-15 16:05:52,103 - ccs -INFO - URL is opened
+2020-06-15 16:06:27,271 - ccs -INFO - URL is opened
+2020-06-15 16:18:17,803 - ccs -INFO - user name provided
+2020-06-15 16:18:17,917 - ccs -INFO - password provided
+2020-06-15 16:18:17,977 - ccs -INFO - Click on Sign in
+2020-06-15 16:21:23,621 - ccs -WARN - Login passed
+2020-06-15 16:23:02,934 - ccs -INFO - user name provided
+2020-06-15 16:23:03,043 - ccs -INFO - password provided
+2020-06-15 16:23:03,116 - ccs -INFO - Click on Sign in
+2020-06-15 16:23:53,197 - ccs -WARN - Login passed
+2020-06-15 18:06:06,370 - ccs -INFO - user name provided
+2020-06-15 18:06:06,561 - ccs -INFO - password provided
+2020-06-15 18:06:06,632 - ccs -INFO - Click on Sign in
+2020-06-15 18:06:56,654 - ccs -WARN - Login passed
+2020-06-15 18:16:47,689 - ccs -INFO - user name provided
+2020-06-15 18:16:47,790 - ccs -INFO - password provided
+2020-06-15 18:16:47,844 - ccs -INFO - Click on Sign in
+2020-06-15 18:17:37,915 - ccs -WARN - Login passed
+2020-06-15 18:17:48,091 - ccs -WARN - User is signed off
+2020-06-15 18:19:43,879 - ccs -INFO - Entered username
+2020-06-15 18:19:44,070 - ccs -INFO - Entered password
+2020-06-15 18:19:44,140 - ccs -INFO - Click on Sign In
+2020-06-15 18:20:29,168 - ccs -INFO - Login test passed
+2020-06-15 18:20:33,332 - ccs -INFO - User is Sign off
+2020-06-15 18:24:48,692 - ccs -INFO - Entered username
+2020-06-15 18:24:48,804 - ccs -INFO - Entered password
+2020-06-15 18:24:48,875 - ccs -INFO - Click on Sign In
+2020-06-15 18:25:33,894 - ccs -INFO - Login test passed
+2020-06-15 18:25:37,115 - ccs -INFO - User is Sign off
+2020-06-15 20:48:21,672 - ccs -INFO - Entered username
+2020-06-15 20:48:21,837 - ccs -INFO - Entered password
+2020-06-15 20:48:21,912 - ccs -INFO - Click on Sign In
+2020-06-15 20:49:06,966 - ccs -INFO - Login test passed
+2020-06-15 20:49:20,188 - ccs -INFO - User is Sign off
+2020-06-15 20:51:52,316 - ccs -INFO - user name provided
+2020-06-15 20:51:52,435 - ccs -INFO - password provided
+2020-06-15 20:51:52,504 - ccs -INFO - Click on Sign in
+2020-06-15 20:52:42,527 - ccs -WARN - Login passed
+2020-06-15 20:52:52,705 - ccs -WARN - User is signed off
+2020-06-15 20:56:47,762 - ccs -INFO - user name provided
+2020-06-15 20:56:47,885 - ccs -INFO - password provided
+2020-06-15 20:56:47,953 - ccs -INFO - Click on Sign in
+2020-06-15 20:57:37,997 - ccs -WARN - Login passed
+2020-06-15 20:57:48,252 - ccs -WARN - User is signed off
+2020-06-15 21:03:17,306 - ccs -INFO - Entered username
+2020-06-15 21:03:17,409 - ccs -INFO - Entered password
+2020-06-15 21:03:17,471 - ccs -INFO - Click on Sign In
+2020-06-15 21:04:02,519 - ccs -INFO - Login test passed
+2020-06-15 21:04:05,695 - ccs -INFO - User is Sign off
+2020-06-15 21:12:58,302 - ccs -INFO - Entered username
+2020-06-15 21:12:58,404 - ccs -INFO - Entered password
+2020-06-15 21:12:58,456 - ccs -INFO - Click on Sign In
+2020-06-15 21:13:43,519 - ccs -INFO - Login test passed
+2020-06-15 21:13:46,720 - ccs -INFO - User is Sign off
+2020-06-15 21:16:52,863 - ccs -INFO - Entered username
+2020-06-15 21:16:53,675 - ccs -INFO - Entered password
+2020-06-15 21:16:53,940 - ccs -INFO - Click on Sign In
+2020-06-15 21:17:39,002 - ccs -INFO - Login test passed
+2020-06-15 21:17:42,507 - ccs -INFO - User is Sign off
+2020-06-16 15:24:20,286 - ccs -INFO - Entered username
+2020-06-16 15:24:20,400 - ccs -INFO - Entered password
+2020-06-16 15:24:20,478 - ccs -INFO - Click on Sign In
+2020-06-16 15:25:05,495 - ccs -INFO - Login test passed
+2020-06-16 15:25:08,691 - ccs -INFO - User is Sign off
+2020-06-16 15:30:29,772 - ccs -INFO - Entered username
+2020-06-16 15:30:29,884 - ccs -INFO - Entered password
+2020-06-16 15:30:29,952 - ccs -INFO - Click on Sign In
+2020-06-16 15:31:14,987 - ccs -INFO - Login test passed
+2020-06-16 15:31:18,200 - ccs -INFO - User is Sign off
+2020-06-16 15:54:15,519 - ccs -INFO - Entered username
+2020-06-16 15:54:15,623 - ccs -INFO - Entered password
+2020-06-16 15:54:15,688 - ccs -INFO - Click on Sign In
+2020-06-16 15:55:00,704 - ccs -INFO - Login test passed
+2020-06-16 15:55:03,860 - ccs -INFO - User is Sign off
+2020-06-16 16:17:02,290 - ccs -INFO - user name provided
+2020-06-16 16:17:02,415 - ccs -INFO - password provided
+2020-06-16 16:19:23,104 - ccs -INFO - user name provided
+2020-06-16 16:19:23,276 - ccs -INFO - password provided
+2020-06-16 16:19:26,429 - ccs -WARN - Login passed
+2020-06-16 16:21:19,577 - ccs -INFO - user name provided
+2020-06-16 16:21:19,906 - ccs -INFO - password provided
+2020-06-16 16:21:24,439 - ccs -WARN - Login passed
+2020-06-16 16:23:59,809 - ccs -INFO - user name provided
+2020-06-16 16:23:59,955 - ccs -INFO - password provided
+2020-06-16 16:24:04,370 - ccs -WARN - Login passed
+2020-06-16 16:51:17,605 - ccs -INFO - user name provided
+2020-06-16 16:51:17,727 - ccs -INFO - password provided
+2020-06-16 16:51:28,164 - ccs -WARN - Login passed
+2020-06-16 16:51:52,203 - ccs -WARN - user is signed off
+2020-06-16 16:53:12,140 - ccs -INFO - user name provided
+2020-06-16 16:53:12,416 - ccs -INFO - password provided
+2020-06-16 16:53:30,632 - ccs -WARN - Login passed
+2020-06-16 16:53:54,508 - ccs -WARN - user is signed off
+2020-06-16 16:56:49,216 - ccs -INFO - user name provided
+2020-06-16 16:56:49,367 - ccs -INFO - password provided
+2020-06-16 16:56:53,921 - ccs -WARN - Login passed
+2020-06-16 16:57:16,837 - ccs -WARN - user is signed off
+2020-06-18 11:38:22,643 - ccs -INFO - URL is opened
+2020-06-18 11:38:38,602 - ccs -INFO - Entered username
+2020-06-18 11:38:38,751 - ccs -INFO - Entered password
+2020-06-18 11:38:38,818 - ccs -INFO - Click on Sign In
+2020-06-18 11:39:23,841 - ccs -INFO - Login test passed
+2020-06-18 11:39:27,110 - ccs -INFO - User is Sign off
+2020-06-18 11:39:58,998 - ccs -INFO - Entered username
+2020-06-18 11:39:59,152 - ccs -INFO - Entered password
+2020-06-18 11:39:59,235 - ccs -INFO - Click on Sign In
+2020-06-18 11:40:44,253 - ccs -INFO - Login test passed
+2020-06-18 11:40:47,447 - ccs -INFO - User is Sign off
+2020-06-18 11:41:48,996 - ccs -INFO - URL is opened
+2020-06-18 11:42:08,798 - ccs -INFO - Entered username
+2020-06-18 11:42:08,937 - ccs -INFO - Entered password
+2020-06-18 11:42:09,014 - ccs -INFO - Click on Sign In
+2020-06-18 11:42:54,076 - ccs -INFO - Login test passed
+2020-06-18 11:42:57,300 - ccs -INFO - User is Sign off
+2020-06-18 11:43:19,851 - ccs -INFO - Entered username
+2020-06-18 11:43:19,976 - ccs -INFO - Entered password
+2020-06-18 11:43:20,047 - ccs -INFO - Click on Sign In
+2020-06-18 11:44:05,104 - ccs -INFO - Login test passed
+2020-06-18 11:44:08,318 - ccs -INFO - User is Sign off
+2020-06-18 11:46:00,447 - ccs -INFO - URL is opened
+2020-06-18 11:46:19,247 - ccs -INFO - Entered username
+2020-06-18 11:46:19,376 - ccs -INFO - Entered password
+2020-06-18 11:46:19,444 - ccs -INFO - Click on Sign In
+2020-06-18 11:47:04,506 - ccs -INFO - Login test passed
+2020-06-18 11:47:07,744 - ccs -INFO - User is Sign off
+2020-06-18 11:47:31,633 - ccs -INFO - Entered username
+2020-06-18 11:47:31,764 - ccs -INFO - Entered password
+2020-06-18 11:47:31,834 - ccs -INFO - Click on Sign In
+2020-06-18 11:48:16,877 - ccs -INFO - Login test passed
+2020-06-18 11:48:20,104 - ccs -INFO - User is Sign off
+2020-06-18 16:32:22,792 - ccs -INFO - Entered username
+2020-06-18 16:32:22,944 - ccs -INFO - Entered password
+2020-06-18 16:32:23,015 - ccs -INFO - Click on Sign In
+2020-06-18 16:33:08,038 - ccs -INFO - Login test passed
+2020-06-18 16:33:11,307 - ccs -INFO - User is Sign off
+2020-06-18 16:33:29,234 - ccs -INFO - user name provided
+2020-06-18 16:33:29,459 - ccs -INFO - password provided
+2020-06-18 16:33:33,599 - ccs -WARN - Login passed
+2020-06-18 16:34:00,867 - ccs -WARN - user is signed off
+2020-06-18 16:34:21,153 - ccs -INFO - Entered username
+2020-06-18 16:34:21,287 - ccs -INFO - Entered password
+2020-06-18 16:34:21,377 - ccs -INFO - Click on Sign In
+2020-06-18 16:35:06,428 - ccs -INFO - Login test passed
+2020-06-18 16:35:09,654 - ccs -INFO - User is Sign off
+2020-06-18 16:35:15,489 - ccs -INFO - URL is opened
+2020-06-18 16:35:26,933 - ccs -INFO - Entered username
+2020-06-18 16:35:27,099 - ccs -INFO - Entered password
+2020-06-18 16:35:27,169 - ccs -INFO - Click on Sign In
+2020-06-18 16:36:12,214 - ccs -INFO - Login test passed
+2020-06-18 16:36:15,481 - ccs -INFO - User is Sign off
+2020-06-18 16:38:52,433 - ccs -INFO - Entered username
+2020-06-18 16:38:52,553 - ccs -INFO - Entered password
+2020-06-18 16:38:52,629 - ccs -INFO - Click on Sign In
+2020-06-18 16:39:37,651 - ccs -INFO - Login test passed
+2020-06-18 16:39:40,866 - ccs -INFO - User is Sign off
+2020-06-18 16:39:58,992 - ccs -INFO - user name provided
+2020-06-18 16:39:59,148 - ccs -INFO - password provided
+2020-06-18 16:40:03,340 - ccs -WARN - Login passed
+2020-06-18 16:40:24,675 - ccs -WARN - user is signed off
+2020-06-18 16:40:47,755 - ccs -INFO - Entered username
+2020-06-18 16:40:47,879 - ccs -INFO - Entered password
+2020-06-18 16:40:47,951 - ccs -INFO - Click on Sign In
+2020-06-18 16:41:32,997 - ccs -INFO - Login test passed
+2020-06-18 16:41:36,287 - ccs -INFO - User is Sign off
+2020-06-18 16:41:42,224 - ccs -INFO - URL is opened
+2020-06-18 16:41:53,331 - ccs -INFO - Entered username
+2020-06-18 16:41:53,474 - ccs -INFO - Entered password
+2020-06-18 16:41:53,542 - ccs -INFO - Click on Sign In
+2020-06-18 16:42:38,594 - ccs -INFO - Login test passed
+2020-06-18 16:42:41,952 - ccs -INFO - User is Sign off
+2020-06-18 16:49:21,605 - ccs -INFO - URL is opened
+2020-06-18 16:49:33,123 - ccs -INFO - Entered username
+2020-06-18 16:49:33,259 - ccs -INFO - Entered password
+2020-06-18 16:49:33,340 - ccs -INFO - Click on Sign In
+2020-06-18 16:50:18,382 - ccs -INFO - Login test passed
+2020-06-18 16:50:21,630 - ccs -INFO - User is Sign off
+2020-06-18 16:50:39,964 - ccs -INFO - Entered username
+2020-06-18 16:50:40,091 - ccs -INFO - Entered password
+2020-06-18 16:50:40,162 - ccs -INFO - Click on Sign In
+2020-06-18 16:51:25,197 - ccs -INFO - Login test passed
+2020-06-18 16:51:28,503 - ccs -INFO - User is Sign off
+2020-06-18 16:54:56,159 - ccs -INFO - URL is opened
+2020-06-18 16:55:08,047 - ccs -INFO - Entered username
+2020-06-18 16:55:08,205 - ccs -INFO - Entered password
+2020-06-18 16:55:08,270 - ccs -INFO - Click on Sign In
+2020-06-18 16:55:53,335 - ccs -INFO - Login test passed
+2020-06-18 16:55:56,611 - ccs -INFO - User is Sign off
+2020-06-18 16:56:14,996 - ccs -INFO - Entered username
+2020-06-18 16:56:15,146 - ccs -INFO - Entered password
+2020-06-18 16:56:15,218 - ccs -INFO - Click on Sign In
+2020-06-18 16:57:00,236 - ccs -INFO - Login test passed
+2020-06-18 16:57:03,517 - ccs -INFO - User is Sign off
+2020-06-18 16:58:59,242 - ccs -INFO - URL is opened
+2020-06-18 16:59:10,964 - ccs -INFO - Entered username
+2020-06-18 16:59:11,096 - ccs -INFO - Entered password
+2020-06-18 16:59:11,174 - ccs -INFO - Click on Sign In
+2020-06-18 16:59:56,197 - ccs -INFO - Login test passed
+2020-06-18 16:59:59,541 - ccs -INFO - User is Sign off
+2020-06-18 17:00:21,115 - ccs -INFO - Entered username
+2020-06-18 17:00:21,242 - ccs -INFO - Entered password
+2020-06-18 17:00:21,320 - ccs -INFO - Click on Sign In
+2020-06-18 17:01:06,341 - ccs -INFO - Login test passed
+2020-06-18 17:01:09,540 - ccs -INFO - User is Sign off
+2020-06-18 17:02:37,825 - ccs -INFO - URL is opened
+2020-06-18 17:02:49,237 - ccs -INFO - Entered username
+2020-06-18 17:02:49,445 - ccs -INFO - Entered password
+2020-06-18 17:02:49,512 - ccs -INFO - Click on Sign In
+2020-06-18 17:03:34,555 - ccs -INFO - Login test passed
+2020-06-18 17:03:37,842 - ccs -INFO - User is Sign off
+2020-06-18 17:03:56,026 - ccs -INFO - Entered username
+2020-06-18 17:03:56,141 - ccs -INFO - Entered password
+2020-06-18 17:03:56,234 - ccs -INFO - Click on Sign In
+2020-06-18 17:04:41,251 - ccs -INFO - Login test passed
+2020-06-18 17:04:44,487 - ccs -INFO - User is Sign off
+2020-06-18 17:10:15,389 - ccs -INFO - URL is opened
+2020-06-18 17:10:28,013 - ccs -INFO - Entered username
+2020-06-18 17:10:28,156 - ccs -INFO - Entered password
+2020-06-18 17:10:28,228 - ccs -INFO - Click on Sign In
+2020-06-18 17:11:13,251 - ccs -INFO - Login test passed
+2020-06-18 17:11:16,479 - ccs -INFO - User is Sign off
+2020-06-18 17:11:39,622 - ccs -INFO - Entered username
+2020-06-18 17:11:39,777 - ccs -INFO - Entered password
+2020-06-18 17:11:39,854 - ccs -INFO - Click on Sign In
+2020-06-18 17:12:24,899 - ccs -INFO - Login test passed
+2020-06-18 17:12:28,113 - ccs -INFO - User is Sign off
+2020-06-18 17:18:35,885 - ccs -INFO - URL is opened
+2020-06-18 17:18:47,237 - ccs -INFO - Entered username
+2020-06-18 17:18:47,371 - ccs -INFO - Entered password
+2020-06-18 17:18:47,436 - ccs -INFO - Click on Sign In
+2020-06-18 17:19:32,482 - ccs -INFO - Login test passed
+2020-06-18 17:19:35,726 - ccs -INFO - User is Sign off
+2020-06-18 17:19:42,591 - ccs -INFO - URL is opened
+2020-06-18 17:19:54,047 - ccs -INFO - Entered username
+2020-06-18 17:19:54,182 - ccs -INFO - Entered password
+2020-06-18 17:19:54,248 - ccs -INFO - Click on Sign In
+2020-06-18 17:20:39,269 - ccs -INFO - Login test passed
+2020-06-18 17:20:42,527 - ccs -INFO - User is Sign off
+2020-06-18 17:20:42,531 - ccs -INFO - URL is opened
+2020-06-18 17:22:15,122 - ccs -INFO - URL is opened
+2020-06-18 17:22:26,585 - ccs -INFO - Entered username
+2020-06-18 17:22:26,714 - ccs -INFO - Entered password
+2020-06-18 17:22:26,781 - ccs -INFO - Click on Sign In
+2020-06-18 17:23:11,806 - ccs -INFO - Login test passed
+2020-06-18 17:23:15,026 - ccs -INFO - User is Sign off
+2020-06-18 17:23:21,618 - ccs -INFO - URL is opened
+2020-06-18 17:23:32,905 - ccs -INFO - Entered username
+2020-06-18 17:23:33,043 - ccs -INFO - Entered password
+2020-06-18 17:23:33,113 - ccs -INFO - Click on Sign In
+2020-06-18 17:24:18,170 - ccs -INFO - Login test passed
+2020-06-18 17:24:21,413 - ccs -INFO - User is Sign off
+2020-06-18 17:46:55,107 - ccs -INFO - Entered username
+2020-06-18 17:46:55,238 - ccs -INFO - Entered password
+2020-06-18 17:46:55,322 - ccs -INFO - Click on Sign In
+2020-06-18 17:47:40,343 - ccs -INFO - Login test passed
+2020-06-18 17:47:43,534 - ccs -INFO - User is Sign off
+2020-06-18 17:48:01,377 - ccs -INFO - user name provided
+2020-06-18 17:48:01,507 - ccs -INFO - password provided
+2020-06-18 17:48:05,897 - ccs -WARN - Login passed
+2020-06-18 17:48:27,311 - ccs -WARN - user is signed off
+2020-06-18 17:48:36,367 - ccs -INFO - URL is opened
+2020-06-18 17:48:47,773 - ccs -INFO - Entered username
+2020-06-18 17:48:47,892 - ccs -INFO - Entered password
+2020-06-18 17:48:47,968 - ccs -INFO - Click on Sign In
+2020-06-18 17:49:33,016 - ccs -INFO - Login test passed
+2020-06-18 17:49:36,247 - ccs -INFO - User is Sign off
+2020-06-18 17:49:41,980 - ccs -INFO - URL is opened
+2020-06-18 17:49:53,559 - ccs -INFO - Entered username
+2020-06-18 17:49:53,718 - ccs -INFO - Entered password
+2020-06-18 17:49:53,793 - ccs -INFO - Click on Sign In
+2020-06-18 17:50:38,846 - ccs -INFO - Login test passed
+2020-06-18 17:50:42,064 - ccs -INFO - User is Sign off
+2020-06-18 17:54:00,525 - ccs -INFO - Entered username
+2020-06-18 17:54:00,713 - ccs -INFO - Entered password
+2020-06-18 17:54:00,815 - ccs -INFO - Click on Sign In
+2020-06-18 17:54:45,888 - ccs -INFO - Login test passed
+2020-06-18 17:54:49,275 - ccs -INFO - User is Sign off
+2020-06-18 17:55:08,738 - ccs -INFO - user name provided
+2020-06-18 17:55:08,921 - ccs -INFO - password provided
+2020-06-18 17:55:13,467 - ccs -WARN - Login passed
+2020-06-18 17:55:35,853 - ccs -WARN - user is signed off
+2020-06-18 17:55:48,948 - ccs -INFO - URL is opened
+2020-06-18 17:56:00,797 - ccs -INFO - Entered username
+2020-06-18 17:56:01,044 - ccs -INFO - Entered password
+2020-06-18 17:56:01,152 - ccs -INFO - Click on Sign In
+2020-06-18 17:56:46,168 - ccs -INFO - Login test passed
+2020-06-18 17:56:49,509 - ccs -INFO - User is Sign off
+2020-06-18 17:56:56,391 - ccs -INFO - URL is opened
+2020-06-18 17:57:07,975 - ccs -INFO - Entered username
+2020-06-18 17:57:08,225 - ccs -INFO - Entered password
+2020-06-18 17:57:08,429 - ccs -INFO - Click on Sign In
+2020-06-18 17:57:53,464 - ccs -INFO - Login test passed
+2020-06-18 17:57:56,838 - ccs -INFO - User is Sign off
+2020-06-18 18:57:03,697 - ccs -INFO - URL is opened
+2020-06-18 18:57:15,394 - ccs -INFO - Entered username
+2020-06-18 18:57:15,526 - ccs -INFO - Entered password
+2020-06-18 18:57:15,597 - ccs -INFO - Click on Sign In
+2020-06-18 18:58:00,628 - ccs -INFO - Login test passed
+2020-06-18 18:58:03,853 - ccs -INFO - User is Sign off
+2020-06-18 18:58:10,528 - ccs -INFO - URL is opened
+2020-06-18 18:58:21,832 - ccs -INFO - Entered username
+2020-06-18 18:58:22,019 - ccs -INFO - Entered password
+2020-06-18 18:58:22,096 - ccs -INFO - Click on Sign In
+2020-06-18 18:59:07,143 - ccs -INFO - Login test passed
+2020-06-18 18:59:10,377 - ccs -INFO - User is Sign off
+2020-06-18 19:24:31,257 - ccs -INFO - URL is opened
+2020-06-18 19:24:45,307 - ccs -INFO - Entered username
+2020-06-18 19:24:45,427 - ccs -INFO - Entered password
+2020-06-18 19:24:45,487 - ccs -INFO - Click on Sign In
+2020-06-18 19:25:30,507 - ccs -INFO - Login test passed
+2020-06-18 19:25:33,693 - ccs -INFO - User is Sign off
+2020-06-18 19:25:42,112 - ccs -INFO - URL is opened
+2020-06-18 19:26:15,846 - ccs -INFO - Entered username
+2020-06-18 19:26:15,984 - ccs -INFO - Entered password
+2020-06-18 19:26:16,064 - ccs -INFO - Click on Sign In
+2020-06-18 19:27:01,119 - ccs -INFO - Login test passed
+2020-06-18 19:27:04,311 - ccs -INFO - User is Sign off
+2020-06-18 19:33:50,585 - ccs -INFO - URL is opened
+2020-06-18 19:34:03,217 - ccs -INFO - Entered username
+2020-06-18 19:34:03,316 - ccs -INFO - Entered password
+2020-06-18 19:34:03,384 - ccs -INFO - Click on Sign In
+2020-06-18 19:34:48,409 - ccs -INFO - Login test passed
+2020-06-18 19:34:51,582 - ccs -INFO - User is Sign off
+2020-06-18 19:34:59,618 - ccs -INFO - URL is opened
+2020-06-18 19:35:30,454 - ccs -INFO - Entered username
+2020-06-18 19:35:30,591 - ccs -INFO - Entered password
+2020-06-18 19:35:30,679 - ccs -INFO - Click on Sign In
+2020-06-18 19:36:15,695 - ccs -INFO - Login test passed
+2020-06-18 19:36:18,846 - ccs -INFO - User is Sign off
+2020-06-19 10:48:12,421 - ccs -INFO - URL is opened
+2020-06-19 10:49:03,186 - ccs -INFO - URL is opened
+2020-06-19 10:54:08,230 - ccs -INFO - URL is opened
+2020-06-19 10:54:39,128 - ccs -INFO - Entered username
+2020-06-19 10:54:39,352 - ccs -INFO - Entered password
+2020-06-19 10:54:39,491 - ccs -INFO - Click on Sign In
+2020-06-19 10:55:24,527 - ccs -INFO - Login test passed
+2020-06-19 10:55:27,784 - ccs -INFO - User is Sign off
+2020-06-19 10:55:51,463 - ccs -INFO - URL is opened
+2020-06-19 10:56:28,587 - ccs -INFO - Entered username
+2020-06-19 10:56:28,736 - ccs -INFO - Entered password
+2020-06-19 10:56:28,834 - ccs -INFO - Click on Sign In
+2020-06-19 10:57:13,864 - ccs -INFO - Login test passed
+2020-06-19 10:57:17,135 - ccs -INFO - User is Sign off
