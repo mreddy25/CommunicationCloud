@@ -29,6 +29,7 @@ public class TC_LoginTest_001 extends BaseClass
 		Thread.sleep(3000);
 		
 		//details page-
+
 		driver.findElement(By.id("details-button")).click();
 		driver.findElement(By.id("proceed-link")).click();
 		

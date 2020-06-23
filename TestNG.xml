@@ -13,7 +13,7 @@
 		<!-- we can run all the classes at a time. if you want to run individually, you can comment the class -->
 						
 			<class name="com.ccs.testCases.TC_LoginTest_001" />
-			<class name="com.ccs.testCases.TC_LoginDDT_002" /><!-- data driven test -->
+			<class name="com.ccs.testCases.TC_LoginDDT_002" />
 			<class name="com.ccs.testCases.TC_ContentTest_003" />
 			<class name="com.ccs.testCases.TC_DocumentTest_004" />
 			<class name="com.ccs.testCases.TC_PackageTest_005" />
