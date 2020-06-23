@@ -735,3 +735,637 @@
 2020-06-19 10:56:28,834 [main] INFO ccs - Click on Sign In
 2020-06-19 10:57:13,864 [main] INFO ccs - Login test passed
 2020-06-19 10:57:17,135 [main] INFO ccs - User is Sign off
+2020-06-19 17:40:35,694 [main] INFO ccs - URL is opened
+2020-06-19 17:41:22,392 [main] INFO ccs - URL is opened
+2020-06-19 17:41:33,962 [main] INFO ccs - Entered username
+2020-06-19 17:41:34,054 [main] INFO ccs - Entered password
+2020-06-19 17:41:34,119 [main] INFO ccs - Click on Sign In
+2020-06-19 17:42:19,136 [main] INFO ccs - Login test passed
+2020-06-19 17:42:22,294 [main] INFO ccs - User is Sign off
+2020-06-19 18:12:43,645 [main] INFO ccs - URL is opened
+2020-06-19 18:12:54,665 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-19 18:12:54,765 [main] INFO ccs - Entered password
+2020-06-19 18:12:54,833 [main] INFO ccs - Click on Sign In
+2020-06-19 18:13:39,884 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-19 18:13:43,136 [main] INFO ccs - User is Sign off
+2020-06-19 18:13:49,045 [main] INFO ccs - URL is opened
+2020-06-19 18:13:59,840 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-19 18:13:59,932 [main] INFO ccs - Entered password
+2020-06-19 18:13:59,998 [main] INFO ccs - Click on Sign In
+2020-06-19 18:14:45,053 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-19 18:14:48,328 [main] INFO ccs - User is Sign off
+2020-06-19 18:17:16,536 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:17:27,744 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-19 18:17:27,850 [main] INFO ccs - Entered password
+2020-06-19 18:17:27,921 [main] INFO ccs - Click on Sign In
+2020-06-19 18:18:12,975 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-19 18:18:16,140 [main] INFO ccs - User is Sign off
+2020-06-19 18:18:22,114 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:18:32,932 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-19 18:18:33,027 [main] INFO ccs - Entered password
+2020-06-19 18:18:33,102 [main] INFO ccs - Click on Sign In
+2020-06-19 18:19:18,124 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-19 18:19:21,294 [main] INFO ccs - User is Sign off
+2020-06-19 18:22:09,721 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:22:20,915 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-19 18:22:21,024 [main] INFO ccs - Entered password
+2020-06-19 18:22:21,090 [main] INFO ccs - Click on Sign In
+2020-06-19 18:23:06,151 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-19 18:23:09,330 [main] INFO ccs - User is Sign off
+2020-06-19 18:23:15,097 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:23:25,906 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-19 18:23:25,999 [main] INFO ccs - Entered password
+2020-06-19 18:23:26,077 [main] INFO ccs - Click on Sign In
+2020-06-19 18:24:11,137 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-19 18:24:14,430 [main] INFO ccs - User is Sign off
+2020-06-19 18:28:00,538 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:28:11,920 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-19 18:28:12,014 [main] INFO ccs - Entered password
+2020-06-19 18:28:12,069 [main] INFO ccs - Click on Sign In
+2020-06-19 18:28:57,122 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-19 18:29:00,305 [main] INFO ccs - User is Sign off
+2020-06-19 18:29:06,246 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:29:16,991 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-19 18:29:17,090 [main] INFO ccs - Entered password
+2020-06-19 18:29:17,158 [main] INFO ccs - Click on Sign In
+2020-06-19 18:30:02,214 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-19 18:30:05,402 [main] INFO ccs - User is Sign off
+2020-06-19 18:30:07,851 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:38:37,854 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:38:53,757 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-19 18:38:53,851 [main] INFO ccs - Entered password
+2020-06-19 18:38:53,908 [main] INFO ccs - Click on Sign In
+2020-06-19 18:39:38,964 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-19 18:39:42,115 [main] INFO ccs - User is Sign off
+2020-06-19 18:39:51,084 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:40:02,704 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-19 18:40:02,799 [main] INFO ccs - Entered password
+2020-06-19 18:40:02,881 [main] INFO ccs - Click on Sign In
+2020-06-19 18:40:47,942 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-19 18:40:51,164 [main] INFO ccs - User is Sign off
+2020-06-19 18:40:56,543 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:44:17,143 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:44:28,284 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-19 18:44:28,390 [main] INFO ccs - Entered password
+2020-06-19 18:44:28,461 [main] INFO ccs - Click on Sign In
+2020-06-19 18:45:13,522 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-19 18:45:16,695 [main] INFO ccs - User is Sign off
+2020-06-19 18:45:25,570 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:45:40,864 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-19 18:45:40,962 [main] INFO ccs - Entered password
+2020-06-19 18:45:41,023 [main] INFO ccs - Click on Sign In
+2020-06-19 18:46:26,068 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-19 18:46:29,298 [main] INFO ccs - User is Sign off
+2020-06-19 18:46:34,886 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:50:08,956 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:50:19,903 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-19 18:50:20,020 [main] INFO ccs - Entered password
+2020-06-19 18:50:20,095 [main] INFO ccs - Click on Sign In
+2020-06-19 18:51:05,147 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-19 18:51:08,376 [main] INFO ccs - User is Sign off
+2020-06-19 18:51:17,284 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:51:32,790 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-19 18:51:32,898 [main] INFO ccs - Entered password
+2020-06-19 18:51:32,957 [main] INFO ccs - Click on Sign In
+2020-06-19 18:52:17,976 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-19 18:52:21,190 [main] INFO ccs - User is Sign off
+2020-06-19 18:55:33,435 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:55:45,115 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-19 18:55:45,209 [main] INFO ccs - Entered password
+2020-06-19 18:55:45,279 [main] INFO ccs - Click on Sign In
+2020-06-19 18:56:30,298 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-19 18:56:33,483 [main] INFO ccs - User is Sign off
+2020-06-19 18:56:42,885 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-19 18:56:53,844 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-19 18:56:53,940 [main] INFO ccs - Entered password
+2020-06-19 18:56:54,009 [main] INFO ccs - Click on Sign In
+2020-06-19 18:57:39,179 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-19 18:57:42,505 [main] INFO ccs - User is Sign off
+2020-06-22 12:23:11,222 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 12:23:22,728 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 12:23:22,835 [main] INFO ccs - Entered password
+2020-06-22 12:23:22,906 [main] INFO ccs - Click on Sign In
+2020-06-22 12:24:07,924 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-22 12:24:11,144 [main] INFO ccs - User is Sign off
+2020-06-22 12:28:28,984 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 12:28:40,258 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 12:28:40,355 [main] INFO ccs - Entered password
+2020-06-22 12:28:40,426 [main] INFO ccs - Click on Sign In
+2020-06-22 12:30:56,902 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 12:31:08,400 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 12:31:08,502 [main] INFO ccs - Entered password
+2020-06-22 12:31:08,568 [main] INFO ccs - Click on Sign In
+2020-06-22 12:31:53,653 [main] INFO ccs - Click on Hamberg button
+2020-06-22 12:41:13,321 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 12:41:24,976 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 12:41:25,073 [main] INFO ccs - Entered password
+2020-06-22 12:41:25,148 [main] INFO ccs - Click on Sign In
+2020-06-22 12:42:10,315 [main] INFO ccs - Click on Hamberg button
+2020-06-22 12:42:13,406 [main] INFO ccs - Selected Congiuration link
+2020-06-22 12:42:13,481 [main] INFO ccs - Selected Communication link
+2020-06-22 12:50:22,263 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 12:50:33,537 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 12:50:33,640 [main] INFO ccs - Entered password
+2020-06-22 12:50:33,696 [main] INFO ccs - Click on Sign In
+2020-06-22 12:51:18,868 [main] INFO ccs - Click on Hamberg button
+2020-06-22 12:51:21,958 [main] INFO ccs - Selected Congiuration link
+2020-06-22 12:51:22,059 [main] INFO ccs - Selected Communication link
+2020-06-22 12:51:22,178 [main] INFO ccs - Selected Communication content link
+2020-06-22 12:52:29,308 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 12:52:40,399 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 12:52:40,503 [main] INFO ccs - Entered password
+2020-06-22 12:52:40,573 [main] INFO ccs - Click on Sign In
+2020-06-22 12:53:25,717 [main] INFO ccs - Click on Hamberg button
+2020-06-22 12:53:28,869 [main] INFO ccs - Selected Congiuration link
+2020-06-22 12:53:28,948 [main] INFO ccs - Selected Communication link
+2020-06-22 12:53:29,020 [main] INFO ccs - Selected Communication content link
+2020-06-22 13:24:40,113 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 13:24:51,711 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 13:24:51,810 [main] INFO ccs - Entered password
+2020-06-22 13:24:51,867 [main] INFO ccs - Click on Sign In
+2020-06-22 13:25:36,993 [main] INFO ccs - Click on Hamberg button
+2020-06-22 13:25:40,132 [main] INFO ccs - Selected Congiuration link
+2020-06-22 13:25:40,210 [main] INFO ccs - Selected Communication link
+2020-06-22 13:25:40,301 [main] INFO ccs - Selected Communication content link
+2020-06-22 13:25:40,336 [main] INFO ccs - test case failed....
+2020-06-22 13:32:33,752 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 13:32:45,570 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 13:32:45,669 [main] INFO ccs - Entered password
+2020-06-22 13:32:45,729 [main] INFO ccs - Click on Sign In
+2020-06-22 13:33:30,804 [main] INFO ccs - Click on Hamberg button
+2020-06-22 13:33:33,974 [main] INFO ccs - Selected Congiuration link
+2020-06-22 13:33:34,057 [main] INFO ccs - Selected Communication link
+2020-06-22 13:33:34,150 [main] INFO ccs - Selected Communication content link
+2020-06-22 13:33:34,157 [main] INFO ccs - test case failed....
+2020-06-22 13:39:04,592 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 13:39:16,110 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 13:39:16,207 [main] INFO ccs - Entered password
+2020-06-22 13:39:16,278 [main] INFO ccs - Click on Sign In
+2020-06-22 13:40:01,364 [main] INFO ccs - Click on Hamberg button
+2020-06-22 13:40:04,485 [main] INFO ccs - Selected Congiuration link
+2020-06-22 13:40:04,574 [main] INFO ccs - Selected Communication link
+2020-06-22 13:40:04,667 [main] INFO ccs - Selected Communication content link
+2020-06-22 13:44:38,561 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 13:44:49,974 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 13:44:50,084 [main] INFO ccs - Entered password
+2020-06-22 13:44:50,150 [main] INFO ccs - Click on Sign In
+2020-06-22 13:45:35,286 [main] INFO ccs - Click on Hamberg button
+2020-06-22 13:45:38,432 [main] INFO ccs - Selected Congiuration link
+2020-06-22 13:45:38,592 [main] INFO ccs - Selected Communication link
+2020-06-22 13:45:38,688 [main] INFO ccs - Selected Communication content link
+2020-06-22 13:46:25,844 [main] INFO ccs - test case failed....
+2020-06-22 13:49:07,892 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 13:49:19,462 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 13:49:19,568 [main] INFO ccs - Entered password
+2020-06-22 13:49:19,636 [main] INFO ccs - Click on Sign In
+2020-06-22 13:50:04,791 [main] INFO ccs - Click on Hamberg button
+2020-06-22 13:50:07,905 [main] INFO ccs - Selected Congiuration link
+2020-06-22 13:50:07,979 [main] INFO ccs - Selected Communication link
+2020-06-22 13:50:08,080 [main] INFO ccs - Selected Communication content link
+2020-06-22 13:50:53,201 [main] INFO ccs - test case passed....
+2020-06-22 13:55:28,362 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 13:55:39,544 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 13:55:39,671 [main] INFO ccs - Entered password
+2020-06-22 13:55:39,733 [main] INFO ccs - Click on Sign In
+2020-06-22 13:56:24,845 [main] INFO ccs - Click on Hamberg button
+2020-06-22 13:56:27,990 [main] INFO ccs - Selected Congiuration link
+2020-06-22 13:56:28,141 [main] INFO ccs - Selected Communication link
+2020-06-22 13:56:28,234 [main] INFO ccs - Selected Communication content link
+2020-06-22 13:56:43,307 [main] INFO ccs - You are at Document Content page....
+2020-06-22 14:11:23,255 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:11:34,871 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:11:34,970 [main] INFO ccs - Entered password
+2020-06-22 14:11:35,041 [main] INFO ccs - Click on Sign In
+2020-06-22 14:12:20,120 [main] INFO ccs - Click on Hamberg button
+2020-06-22 14:12:23,284 [main] INFO ccs - Selected Congiuration link
+2020-06-22 14:12:23,367 [main] INFO ccs - Selected Communication link
+2020-06-22 14:12:23,464 [main] INFO ccs - Selected Communication content link
+2020-06-22 14:12:43,544 [main] INFO ccs - You are at Document Content page....
+2020-06-22 14:29:09,759 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:29:21,000 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:29:21,101 [main] INFO ccs - Entered password
+2020-06-22 14:29:21,172 [main] INFO ccs - Click on Sign In
+2020-06-22 14:30:06,224 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-22 14:30:09,452 [main] INFO ccs - User is Sign off
+2020-06-22 14:30:13,899 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:30:25,588 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:30:25,684 [main] INFO ccs - Entered password
+2020-06-22 14:30:25,754 [main] INFO ccs - Click on Sign In
+2020-06-22 14:31:10,840 [main] INFO ccs - Click on Hamberg button
+2020-06-22 14:31:13,989 [main] INFO ccs - Selected Congiuration link
+2020-06-22 14:31:14,062 [main] INFO ccs - Selected Communication link
+2020-06-22 14:31:14,132 [main] INFO ccs - Selected Communication content link
+2020-06-22 14:31:34,163 [main] INFO ccs - You are at Document Content page....
+2020-06-22 14:31:38,280 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:31:50,834 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:31:50,930 [main] INFO ccs - Entered password
+2020-06-22 14:31:51,001 [main] INFO ccs - Click on Sign In
+2020-06-22 14:32:36,156 [main] INFO ccs - Click on Hamberg button
+2020-06-22 14:32:39,334 [main] INFO ccs - Selected Congiuration link
+2020-06-22 14:32:39,407 [main] INFO ccs - Selected Communication link
+2020-06-22 14:32:39,478 [main] INFO ccs - Selected Communication Document link
+2020-06-22 14:32:59,495 [main] INFO ccs - You are not at Document page....
+2020-06-22 14:34:38,784 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:34:50,448 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:34:50,544 [main] INFO ccs - Entered password
+2020-06-22 14:34:50,608 [main] INFO ccs - Click on Sign In
+2020-06-22 14:35:35,626 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-22 14:35:38,867 [main] INFO ccs - User is Sign off
+2020-06-22 14:35:44,685 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:35:56,002 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:35:56,104 [main] INFO ccs - Entered password
+2020-06-22 14:35:56,172 [main] INFO ccs - Click on Sign In
+2020-06-22 14:36:41,310 [main] INFO ccs - Click on Hamberg button
+2020-06-22 14:36:44,421 [main] INFO ccs - Selected Congiuration link
+2020-06-22 14:36:44,500 [main] INFO ccs - Selected Communication link
+2020-06-22 14:36:44,589 [main] INFO ccs - Selected Communication content link
+2020-06-22 14:37:04,675 [main] INFO ccs - You are at Document Content page....
+2020-06-22 14:37:10,610 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:37:22,025 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:37:22,133 [main] INFO ccs - Entered password
+2020-06-22 14:37:22,201 [main] INFO ccs - Click on Sign In
+2020-06-22 14:38:07,358 [main] INFO ccs - Click on Hamberg button
+2020-06-22 14:38:10,557 [main] INFO ccs - Selected Congiuration link
+2020-06-22 14:38:10,712 [main] INFO ccs - Selected Communication link
+2020-06-22 14:38:10,802 [main] INFO ccs - Selected Communication Document link
+2020-06-22 14:38:30,808 [main] INFO ccs - You are not at Document page....
+2020-06-22 14:54:17,914 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:54:29,588 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:54:29,717 [main] INFO ccs - Entered password
+2020-06-22 14:54:29,795 [main] INFO ccs - Click on Sign In
+2020-06-22 14:55:14,823 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-22 14:55:17,984 [main] INFO ccs - User is Sign off
+2020-06-22 14:55:22,648 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:55:33,997 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:55:34,119 [main] INFO ccs - Entered password
+2020-06-22 14:55:34,184 [main] INFO ccs - Click on Sign In
+2020-06-22 14:56:19,283 [main] INFO ccs - Click on Hamberg button
+2020-06-22 14:56:22,431 [main] INFO ccs - Selected Congiuration link
+2020-06-22 14:56:22,510 [main] INFO ccs - Selected Communication link
+2020-06-22 14:56:22,610 [main] INFO ccs - Selected Communication content link
+2020-06-22 14:56:42,666 [main] INFO ccs - You are at Document Content page....
+2020-06-22 14:56:47,433 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 14:56:59,014 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 14:56:59,154 [main] INFO ccs - Entered password
+2020-06-22 14:56:59,216 [main] INFO ccs - Click on Sign In
+2020-06-22 14:57:44,319 [main] INFO ccs - Click on Hamberg button
+2020-06-22 14:57:47,460 [main] INFO ccs - Selected Congiuration link
+2020-06-22 14:57:47,545 [main] INFO ccs - Selected Communication link
+2020-06-22 14:57:47,629 [main] INFO ccs - Selected Communication Document link
+2020-06-22 14:58:07,702 [main] INFO ccs - You are at Document page....
+2020-06-22 15:04:29,169 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 15:04:40,635 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 15:04:40,756 [main] INFO ccs - Entered password
+2020-06-22 15:04:40,826 [main] INFO ccs - Click on Sign In
+2020-06-22 15:05:25,878 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-22 15:05:29,078 [main] INFO ccs - User is Sign off
+2020-06-22 15:05:33,765 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 15:05:45,051 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 15:05:45,152 [main] INFO ccs - Entered password
+2020-06-22 15:05:45,240 [main] INFO ccs - Click on Sign In
+2020-06-22 15:06:30,330 [main] INFO ccs - Click on Hamberg button
+2020-06-22 15:06:33,443 [main] INFO ccs - Selected Congiuration link
+2020-06-22 15:06:33,585 [main] INFO ccs - Selected Communication link
+2020-06-22 15:06:33,681 [main] INFO ccs - Selected Communication content link
+2020-06-22 15:06:53,713 [main] INFO ccs - You are at Document Content page....
+2020-06-22 15:06:58,069 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 15:07:09,097 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 15:07:09,199 [main] INFO ccs - Entered password
+2020-06-22 15:07:09,270 [main] INFO ccs - Click on Sign In
+2020-06-22 15:07:54,377 [main] INFO ccs - Click on Hamberg button
+2020-06-22 15:07:57,469 [main] INFO ccs - Selected Congiuration link
+2020-06-22 15:07:57,663 [main] INFO ccs - Selected Communication link
+2020-06-22 15:07:57,777 [main] INFO ccs - Selected Communication Document link
+2020-06-22 15:08:17,829 [main] INFO ccs - You are at Document page....
+2020-06-22 15:19:31,335 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 15:19:42,658 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 15:19:42,758 [main] INFO ccs - Entered password
+2020-06-22 15:19:42,835 [main] INFO ccs - Click on Sign In
+2020-06-22 15:20:27,926 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-22 15:20:31,090 [main] INFO ccs - User is Sign off
+2020-06-22 15:20:37,682 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 15:20:49,127 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 15:20:49,237 [main] INFO ccs - Entered password
+2020-06-22 15:20:49,296 [main] INFO ccs - Click on Sign In
+2020-06-22 15:21:34,388 [main] INFO ccs - Click on Hamberg button
+2020-06-22 15:21:37,557 [main] INFO ccs - Selected Congiuration link
+2020-06-22 15:21:37,656 [main] INFO ccs - Selected Communication link
+2020-06-22 15:21:37,750 [main] INFO ccs - Selected Communication content link
+2020-06-22 15:21:57,810 [main] INFO ccs - You are at Document Content page....
+2020-06-22 15:22:05,924 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 15:22:16,658 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 15:22:16,765 [main] INFO ccs - Entered password
+2020-06-22 15:22:16,831 [main] INFO ccs - Click on Sign In
+2020-06-22 15:23:01,939 [main] INFO ccs - Click on Hamberg button
+2020-06-22 15:23:05,034 [main] INFO ccs - Selected Congiuration link
+2020-06-22 15:23:05,123 [main] INFO ccs - Selected Communication link
+2020-06-22 15:23:05,215 [main] INFO ccs - Selected Communication Document link
+2020-06-22 15:23:25,267 [main] INFO ccs - You are at Document page....
+2020-06-22 16:06:35,322 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:06:46,444 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:06:46,554 [main] INFO ccs - Entered password
+2020-06-22 16:06:46,624 [main] INFO ccs - Click on Sign In
+2020-06-22 16:07:31,703 [main] INFO ccs - Click on Hamberg button
+2020-06-22 16:07:34,825 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:07:34,946 [main] INFO ccs - Selected Communication link
+2020-06-22 16:07:35,086 [main] INFO ccs - Selected Communication Document link
+2020-06-22 16:07:55,117 [main] INFO ccs - You are at Document Package Landing page....
+2020-06-22 16:13:15,273 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:13:26,432 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:13:26,528 [main] INFO ccs - Entered password
+2020-06-22 16:13:26,583 [main] INFO ccs - Click on Sign In
+2020-06-22 16:14:11,699 [main] INFO ccs - Click on Hamberg button
+2020-06-22 16:14:14,824 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:14:14,945 [main] INFO ccs - Selected Communication link
+2020-06-22 16:14:15,033 [main] INFO ccs - Selected Communication Document link
+2020-06-22 16:14:35,066 [main] INFO ccs - You are at Document page....
+2020-06-22 16:14:40,412 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:14:51,210 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:14:51,309 [main] INFO ccs - Entered password
+2020-06-22 16:14:51,381 [main] INFO ccs - Click on Sign In
+2020-06-22 16:15:36,456 [main] INFO ccs - Click on Hamberg button
+2020-06-22 16:15:39,554 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:15:39,694 [main] INFO ccs - Selected Communication link
+2020-06-22 16:15:39,794 [main] INFO ccs - Selected Communication Document link
+2020-06-22 16:15:59,816 [main] INFO ccs - You are at Document Package Landing page....
+2020-06-22 16:25:16,739 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:25:28,451 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:25:28,542 [main] INFO ccs - Entered password
+2020-06-22 16:25:28,597 [main] INFO ccs - Click on Sign In
+2020-06-22 16:26:13,738 [main] INFO ccs - Click on Hamberg button
+2020-06-22 16:26:16,828 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:26:16,914 [main] INFO ccs - Selected Communication link
+2020-06-22 16:26:17,005 [main] INFO ccs - Selected Communication content link
+2020-06-22 16:26:37,076 [main] INFO ccs - You are at Document Content Landing page....
+2020-06-22 16:26:44,379 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:26:55,629 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:26:55,725 [main] INFO ccs - Entered password
+2020-06-22 16:26:55,798 [main] INFO ccs - Click on Sign In
+2020-06-22 16:27:40,892 [main] INFO ccs - Click on Hamberg button
+2020-06-22 16:27:43,999 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:27:44,082 [main] INFO ccs - Selected Communication link
+2020-06-22 16:27:44,162 [main] INFO ccs - Selected Communication Document link
+2020-06-22 16:28:04,235 [main] INFO ccs - You are at Document page....
+2020-06-22 16:28:12,238 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:28:23,554 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:28:23,662 [main] INFO ccs - Entered password
+2020-06-22 16:28:23,726 [main] INFO ccs - Click on Sign In
+2020-06-22 16:29:08,843 [main] INFO ccs - Click on Hamberg button
+2020-06-22 16:29:11,972 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:29:12,051 [main] INFO ccs - Selected Communication link
+2020-06-22 16:29:12,152 [main] INFO ccs - Selected Communication Document link
+2020-06-22 16:29:32,220 [main] INFO ccs - You are at Document Package Landing page....
+2020-06-22 16:37:38,585 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:37:51,702 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:37:51,800 [main] INFO ccs - Entered password
+2020-06-22 16:37:51,869 [main] INFO ccs - Click on Sign In
+2020-06-22 16:38:36,979 [main] INFO ccs - Click on Toggle button
+2020-06-22 16:38:40,116 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:38:40,203 [main] INFO ccs - Selected Communication link
+2020-06-22 16:38:40,309 [main] INFO ccs - Selected Communication content link
+2020-06-22 16:39:00,387 [main] INFO ccs - You are at Document Content Landing page....
+2020-06-22 16:39:05,949 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:39:17,448 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:39:17,560 [main] INFO ccs - Entered password
+2020-06-22 16:39:17,631 [main] INFO ccs - Click on Sign In
+2020-06-22 16:40:02,717 [main] INFO ccs - Click on Toggle button
+2020-06-22 16:40:05,805 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:40:05,889 [main] INFO ccs - Selected Communication link
+2020-06-22 16:40:05,986 [main] INFO ccs - Selected Communication Document link
+2020-06-22 16:40:26,049 [main] INFO ccs - You are at Document Landing page....
+2020-06-22 16:40:31,614 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 16:40:42,417 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 16:40:42,514 [main] INFO ccs - Entered password
+2020-06-22 16:40:42,576 [main] INFO ccs - Click on Sign In
+2020-06-22 16:41:27,653 [main] INFO ccs - Click on Hamberg button
+2020-06-22 16:41:30,832 [main] INFO ccs - Selected Congiuration link
+2020-06-22 16:41:30,968 [main] INFO ccs - Selected Communication link
+2020-06-22 16:41:31,091 [main] INFO ccs - Selected Communication Document link
+2020-06-22 16:41:51,156 [main] INFO ccs - You are at Document Package Landing page....
+2020-06-22 18:14:42,061 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:14:53,749 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:14:53,910 [main] INFO ccs - Entered password
+2020-06-22 18:14:54,020 [main] INFO ccs - Click on Sign In
+2020-06-22 18:15:39,246 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:15:42,373 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:15:42,540 [main] INFO ccs - Selected Communication link
+2020-06-22 18:15:42,686 [main] INFO ccs - Selected Communication Document link
+2020-06-22 18:16:02,732 [main] INFO ccs - You are at Document Layout Landing page....
+2020-06-22 18:16:08,624 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:16:20,110 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:16:20,420 [main] INFO ccs - Entered password
+2020-06-22 18:16:20,566 [main] INFO ccs - Click on Sign In
+2020-06-22 18:17:05,803 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:17:08,925 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:17:09,096 [main] INFO ccs - Selected Communication link
+2020-06-22 18:17:44,933 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:17:56,723 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:17:56,927 [main] INFO ccs - Entered password
+2020-06-22 18:17:57,075 [main] INFO ccs - Click on Sign In
+2020-06-22 18:18:42,337 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:18:45,455 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:18:45,561 [main] INFO ccs - Selected Communication link
+2020-06-22 18:19:06,334 [main] INFO ccs - Selected Configuration->Communication->Attributes->Styles link
+2020-06-22 18:19:26,369 [main] INFO ccs - You are at Document Stules Landing page....
+2020-06-22 18:19:32,019 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:19:48,310 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:19:48,673 [main] INFO ccs - Entered password
+2020-06-22 18:19:48,855 [main] INFO ccs - Click on Sign In
+2020-06-22 18:20:33,954 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:20:37,207 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:20:37,358 [main] INFO ccs - Selected Communication link
+2020-06-22 18:29:17,902 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:29:29,261 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:29:29,475 [main] INFO ccs - Entered password
+2020-06-22 18:29:29,637 [main] INFO ccs - Click on Sign In
+2020-06-22 18:30:14,883 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:30:18,155 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:30:18,292 [main] INFO ccs - Selected Communication link
+2020-06-22 18:30:18,546 [main] INFO ccs - Selected Communication->Layout link
+2020-06-22 18:30:38,683 [main] INFO ccs - You are at Document Layout Landing page....
+2020-06-22 18:30:44,465 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:31:00,380 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:31:00,708 [main] INFO ccs - Entered password
+2020-06-22 18:31:00,842 [main] INFO ccs - Click on Sign In
+2020-06-22 18:31:46,086 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:31:49,419 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:31:49,604 [main] INFO ccs - Selected Configuration->Communication link
+2020-06-22 18:31:49,733 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 18:31:52,873 [main] INFO ccs - Selected Configuration->Communication->Attributes->Fonts link
+2020-06-22 18:32:12,951 [main] INFO ccs - You are at Document Fonts Landing page....
+2020-06-22 18:32:19,191 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:32:33,308 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:32:33,569 [main] INFO ccs - Entered password
+2020-06-22 18:32:33,732 [main] INFO ccs - Click on Sign In
+2020-06-22 18:33:18,834 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:33:21,978 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:33:22,084 [main] INFO ccs - Selected Configuration->Communication
+2020-06-22 18:33:22,216 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 18:33:25,314 [main] INFO ccs - Selected Configuration->Communication->Attributes->Styles link
+2020-06-22 18:33:45,384 [main] INFO ccs - You are at Document Stules Landing page....
+2020-06-22 18:33:51,379 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:34:08,014 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:34:08,303 [main] INFO ccs - Entered password
+2020-06-22 18:34:08,498 [main] INFO ccs - Click on Sign In
+2020-06-22 18:34:53,790 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:34:56,956 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:34:57,113 [main] INFO ccs - Selected Configuration->Communication link
+2020-06-22 18:34:57,255 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 18:35:00,384 [main] INFO ccs - Selected Configuration->Communication->Attributes->Styles link
+2020-06-22 18:35:20,464 [main] INFO ccs - You are at Document Stules Landing page....
+2020-06-22 18:46:38,523 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:46:51,210 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:46:51,424 [main] INFO ccs - Entered password
+2020-06-22 18:46:51,529 [main] INFO ccs - Click on Sign In
+2020-06-22 18:47:36,627 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-22 18:47:40,086 [main] INFO ccs - User is Sign off
+2020-06-22 18:47:50,922 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:48:02,351 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-22 18:48:02,596 [main] INFO ccs - Entered password
+2020-06-22 18:48:02,821 [main] INFO ccs - Click on Sign In
+2020-06-22 18:48:47,883 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-22 18:48:51,224 [main] INFO ccs - User is Sign off
+2020-06-22 18:48:57,465 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:49:08,884 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:49:09,213 [main] INFO ccs - Entered password
+2020-06-22 18:49:09,425 [main] INFO ccs - Click on Sign In
+2020-06-22 18:49:54,699 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:49:57,875 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:49:57,978 [main] INFO ccs - Selected Communication link
+2020-06-22 18:49:58,117 [main] INFO ccs - Selected Communication content link
+2020-06-22 18:50:18,169 [main] INFO ccs - You are at Document Content Landing page....
+2020-06-22 18:50:24,082 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:50:35,193 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:50:35,392 [main] INFO ccs - Entered password
+2020-06-22 18:50:35,501 [main] INFO ccs - Click on Sign In
+2020-06-22 18:51:20,669 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:51:23,790 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:51:23,895 [main] INFO ccs - Selected Communication link
+2020-06-22 18:51:24,021 [main] INFO ccs - Selected Communication Document link
+2020-06-22 18:51:44,093 [main] INFO ccs - You are at Document Landing page....
+2020-06-22 18:51:49,917 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:52:01,554 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:52:01,800 [main] INFO ccs - Entered password
+2020-06-22 18:52:01,912 [main] INFO ccs - Click on Sign In
+2020-06-22 18:52:47,176 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:52:50,299 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:52:50,460 [main] INFO ccs - Selected Communication link
+2020-06-22 18:52:50,601 [main] INFO ccs - Selected Communication Document link
+2020-06-22 18:53:10,640 [main] INFO ccs - You are at Document Package Landing page....
+2020-06-22 18:53:16,387 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:53:27,483 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:53:27,719 [main] INFO ccs - Entered password
+2020-06-22 18:53:27,874 [main] INFO ccs - Click on Sign In
+2020-06-22 18:54:13,057 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:54:16,278 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:54:16,496 [main] INFO ccs - Selected Communication link
+2020-06-22 18:54:16,645 [main] INFO ccs - Selected Communication->Layout link
+2020-06-22 18:54:36,717 [main] INFO ccs - You are at Document Layout Landing page....
+2020-06-22 18:54:42,454 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:54:55,448 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:54:55,675 [main] INFO ccs - Entered password
+2020-06-22 18:54:55,791 [main] INFO ccs - Click on Sign In
+2020-06-22 18:55:40,900 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:55:44,153 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:55:44,308 [main] INFO ccs - Selected Configuration->Communication link
+2020-06-22 18:55:44,477 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 18:55:47,616 [main] INFO ccs - Selected Configuration->Communication->Attributes->Fonts link
+2020-06-22 18:56:07,688 [main] INFO ccs - You are at Document Fonts Landing page....
+2020-06-22 18:56:13,458 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:56:25,106 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:56:25,336 [main] INFO ccs - Entered password
+2020-06-22 18:56:25,411 [main] INFO ccs - Click on Sign In
+2020-06-22 18:57:10,648 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:57:13,877 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:57:14,038 [main] INFO ccs - Selected Configuration->Communication
+2020-06-22 18:57:14,207 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 18:57:17,438 [main] INFO ccs - Selected Configuration->Communication->Attributes->Styles link
+2020-06-22 18:57:37,507 [main] INFO ccs - You are at Document Stules Landing page....
+2020-06-22 18:57:43,417 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 18:57:55,435 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 18:57:55,846 [main] INFO ccs - Entered password
+2020-06-22 18:57:56,044 [main] INFO ccs - Click on Sign In
+2020-06-22 18:58:41,237 [main] INFO ccs - Click on Toggle button
+2020-06-22 18:58:44,474 [main] INFO ccs - Selected Congiuration link
+2020-06-22 18:58:44,652 [main] INFO ccs - Selected Configuration->Communication link
+2020-06-22 18:58:44,810 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 18:58:48,093 [main] INFO ccs - Selected Configuration->Communication->Attributes->Styles link
+2020-06-22 18:59:08,166 [main] INFO ccs - You are at Document Stules Landing page....
+2020-06-22 19:11:07,408 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:11:18,718 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 19:11:18,871 [main] INFO ccs - Entered password
+2020-06-22 19:11:18,939 [main] INFO ccs - Click on Sign In
+2020-06-22 19:12:04,020 [main] INFO ccs - Login test passed and Logged in as a: admin@oracle.com
+2020-06-22 19:12:07,348 [main] INFO ccs - User is Sign off
+2020-06-22 19:12:18,084 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:12:29,867 [main] INFO ccs - Entered username: munirathnam.singiri@oracle.com
+2020-06-22 19:12:30,035 [main] INFO ccs - Entered password
+2020-06-22 19:12:30,147 [main] INFO ccs - Click on Sign In
+2020-06-22 19:13:15,183 [main] INFO ccs - Login test passed and logged in as a: munirathnam.singiri@oracle.com
+2020-06-22 19:13:18,489 [main] INFO ccs - User is Sign off
+2020-06-22 19:13:24,604 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:13:36,235 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 19:13:36,455 [main] INFO ccs - Entered password
+2020-06-22 19:13:36,576 [main] INFO ccs - Click on Sign In
+2020-06-22 19:14:21,765 [main] INFO ccs - Click on Toggle button
+2020-06-22 19:14:25,046 [main] INFO ccs - Selected Congiuration link
+2020-06-22 19:14:25,212 [main] INFO ccs - Selected Communication link
+2020-06-22 19:14:25,385 [main] INFO ccs - Selected Communication content link
+2020-06-22 19:14:45,442 [main] INFO ccs - You are at Document Content Landing page....
+2020-06-22 19:14:51,510 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:15:05,638 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 19:15:05,935 [main] INFO ccs - Entered password
+2020-06-22 19:15:06,053 [main] INFO ccs - Click on Sign In
+2020-06-22 19:15:51,286 [main] INFO ccs - Click on Toggle button
+2020-06-22 19:15:54,499 [main] INFO ccs - Selected Congiuration link
+2020-06-22 19:15:54,646 [main] INFO ccs - Selected Communication link
+2020-06-22 19:15:54,824 [main] INFO ccs - Selected Communication Document link
+2020-06-22 19:16:14,893 [main] INFO ccs - You are at Document Landing page....
+2020-06-22 19:16:20,753 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:16:32,258 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 19:16:32,416 [main] INFO ccs - Entered password
+2020-06-22 19:16:32,510 [main] INFO ccs - Click on Sign In
+2020-06-22 19:17:17,747 [main] INFO ccs - Click on Toggle button
+2020-06-22 19:17:21,023 [main] INFO ccs - Selected Congiuration link
+2020-06-22 19:17:21,172 [main] INFO ccs - Selected Communication link
+2020-06-22 19:17:21,342 [main] INFO ccs - Selected Communication Document link
+2020-06-22 19:17:41,398 [main] INFO ccs - You are at Document Package Landing page....
+2020-06-22 19:17:47,573 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:17:58,887 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 19:17:59,017 [main] INFO ccs - Entered password
+2020-06-22 19:17:59,079 [main] INFO ccs - Click on Sign In
+2020-06-22 19:18:44,293 [main] INFO ccs - Click on Toggle button
+2020-06-22 19:18:47,432 [main] INFO ccs - Selected Congiuration link
+2020-06-22 19:18:47,540 [main] INFO ccs - Selected Communication link
+2020-06-22 19:18:47,701 [main] INFO ccs - Selected Communication->Layout link
+2020-06-22 19:19:07,769 [main] INFO ccs - You are at Document Layout Landing page....
+2020-06-22 19:19:13,786 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:19:25,342 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 19:19:25,538 [main] INFO ccs - Entered password
+2020-06-22 19:19:25,636 [main] INFO ccs - Click on Sign In
+2020-06-22 19:20:10,830 [main] INFO ccs - Click on Toggle button
+2020-06-22 19:20:14,016 [main] INFO ccs - Selected Congiuration link
+2020-06-22 19:20:14,163 [main] INFO ccs - Selected Configuration->Communication link
+2020-06-22 19:20:14,306 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 19:20:17,499 [main] INFO ccs - Selected Configuration->Communication->Attributes->Fonts link
+2020-06-22 19:20:37,547 [main] INFO ccs - You are at Document Fonts Landing page....
+2020-06-22 19:20:43,862 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:20:55,912 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 19:20:56,140 [main] INFO ccs - Entered password
+2020-06-22 19:20:56,253 [main] INFO ccs - Click on Sign In
+2020-06-22 19:21:41,412 [main] INFO ccs - Click on Toggle button
+2020-06-22 19:21:44,607 [main] INFO ccs - Selected Congiuration link
+2020-06-22 19:21:44,765 [main] INFO ccs - Selected Configuration->Communication
+2020-06-22 19:21:44,915 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 19:21:48,120 [main] INFO ccs - Selected Configuration->Communication->Attributes->Styles link
+2020-06-22 19:22:08,163 [main] INFO ccs - You are at Document Stules Landing page....
+2020-06-22 19:22:14,193 [main] INFO ccs - URL is opened: https://slc15srs.us.oracle.com:30000/bank2stage2/non-prod/ui-rc2/Configuration/index.html
+2020-06-22 19:22:25,615 [main] INFO ccs - Entered username: admin@oracle.com
+2020-06-22 19:22:25,733 [main] INFO ccs - Entered password
+2020-06-22 19:22:25,810 [main] INFO ccs - Click on Sign In
+2020-06-22 19:23:10,886 [main] INFO ccs - Click on Toggle button
+2020-06-22 19:23:14,091 [main] INFO ccs - Selected Congiuration link
+2020-06-22 19:23:14,223 [main] INFO ccs - Selected Configuration->Communication link
+2020-06-22 19:23:14,326 [main] INFO ccs - Selected Configuration->Communication->Attributes link
+2020-06-22 19:23:17,501 [main] INFO ccs - Selected Configuration->Communication->Attributes->Styles link
+2020-06-22 19:23:37,590 [main] INFO ccs - You are at Document Stules Landing page....

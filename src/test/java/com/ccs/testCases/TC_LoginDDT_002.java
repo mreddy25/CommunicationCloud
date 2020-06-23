@@ -9,7 +9,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.ccs.pageObjects.LoginPage;
-import com.ccs.utilities.ReadExcelFile;
 import com.ccs.utilities.XLUtils;
 
 public class TC_LoginDDT_002 extends BaseClass
@@ -17,7 +16,9 @@ public class TC_LoginDDT_002 extends BaseClass
 	@Test(dataProvider="LoginData")
 	public void LoginDDT(String user, String pwd) throws InterruptedException, IOException
 	{
-		logger.info("URL is opened");
+		driver.get(baseURL);
+		Thread.sleep(3000);
+		logger.info("URL is opened: "+baseURL);
 		//here LoginPage- pageObject class
 		LoginPage lp = new LoginPage(driver);
 		Thread.sleep(3000);
@@ -27,7 +28,7 @@ public class TC_LoginDDT_002 extends BaseClass
 		driver.findElement(By.id("proceed-link")).click();
 		
 		lp.setUserName(user);
-		logger.info("Entered username");
+		logger.info("Entered username: "+user);
 		
 		lp.setPassword(pwd);
 		logger.info("Entered password");
@@ -40,7 +41,7 @@ public class TC_LoginDDT_002 extends BaseClass
 		if(driver.findElement(By.id("drawerToggleButton")) != null)		 
 		 { 
 			 Assert.assertTrue(true);
-			 logger.info("Login test passed");
+			 logger.info("Login test passed and logged in as a: "+user);
 		 }
 		 else 
 		 {

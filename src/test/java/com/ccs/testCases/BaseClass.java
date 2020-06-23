@@ -78,7 +78,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		//enter base URL
-		driver.get(baseURL);
+		//driver.get(baseURL);
 	}
 		
 	@AfterClass

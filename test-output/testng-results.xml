@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="CommunicationCloud" duration-ms="134606" started-at="2020-06-18T13:26:57Z" finished-at="2020-06-18T13:29:11Z">
+  <suite name="CommunicationCloud" duration-ms="757037" started-at="2020-06-22T13:16:32Z" finished-at="2020-06-22T13:29:09Z">
     <groups>
     </groups>
-    <test name="ccs" duration-ms="134606" started-at="2020-06-18T13:26:57Z" finished-at="2020-06-18T13:29:11Z">
-      <class name="com.ccs.testCases.TC_LoginDDT_002">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@77cd7a0]" name="setup" is-config="true" duration-ms="4488" started-at="2020-06-18T13:28:05Z" finished-at="2020-06-18T13:28:09Z">
+    <test name="Login Page" duration-ms="757037" started-at="2020-06-22T13:16:32Z" finished-at="2020-06-22T13:29:09Z">
+      <class name="com.ccs.testCases.TC_AtrbStylesTest_008">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_AtrbStylesTest_008@598067a5]" name="setup" is-config="true" duration-ms="3740" started-at="2020-06-22T13:26:08Z" finished-at="2020-06-22T13:26:12Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,133 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@77cd7a0]" name="LoginDDT" duration-ms="59851" started-at="2020-06-18T13:28:10Z" data-provider="LoginData" finished-at="2020-06-18T13:29:10Z">
+        <test-method status="PASS" signature="atrbStylesTest()[pri:0, instance:com.ccs.testCases.TC_AtrbStylesTest_008@598067a5]" name="atrbStylesTest" duration-ms="84789" started-at="2020-06-22T13:26:12Z" finished-at="2020-06-22T13:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atrbStylesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_AtrbStylesTest_008@598067a5]" name="tearDown" is-config="true" duration-ms="1240" started-at="2020-06-22T13:27:37Z" finished-at="2020-06-22T13:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ccs.testCases.TC_AtrbStylesTest_008 -->
+      <class name="com.ccs.testCases.TC_DocumentTest_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_DocumentTest_004@239963d8]" name="setup" is-config="true" duration-ms="3779" started-at="2020-06-22T13:20:19Z" finished-at="2020-06-22T13:20:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="documentTest()[pri:0, instance:com.ccs.testCases.TC_DocumentTest_004@239963d8]" name="documentTest" duration-ms="80884" started-at="2020-06-22T13:20:23Z" finished-at="2020-06-22T13:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_DocumentTest_004@239963d8]" name="tearDown" is-config="true" duration-ms="1208" started-at="2020-06-22T13:21:44Z" finished-at="2020-06-22T13:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ccs.testCases.TC_DocumentTest_004 -->
+      <class name="com.ccs.testCases.TC_AtrbFontsTest_007">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_AtrbFontsTest_007@31ef45e3]" name="setup" is-config="true" duration-ms="3760" started-at="2020-06-22T13:24:37Z" finished-at="2020-06-22T13:24:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="atrbFontsTest()[pri:0, instance:com.ccs.testCases.TC_AtrbFontsTest_007@31ef45e3]" name="atrbFontsTest" duration-ms="85962" started-at="2020-06-22T13:24:41Z" finished-at="2020-06-22T13:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atrbFontsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_AtrbFontsTest_007@31ef45e3]" name="tearDown" is-config="true" duration-ms="1286" started-at="2020-06-22T13:26:07Z" finished-at="2020-06-22T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ccs.testCases.TC_AtrbFontsTest_007 -->
+      <class name="com.ccs.testCases.TC_AtrbRolesTest_009">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_AtrbRolesTest_009@3c0ecd4b]" name="setup" is-config="true" duration-ms="3839" started-at="2020-06-22T13:27:38Z" finished-at="2020-06-22T13:27:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="atrbStylesTest()[pri:0, instance:com.ccs.testCases.TC_AtrbRolesTest_009@3c0ecd4b]" name="atrbStylesTest" duration-ms="85577" started-at="2020-06-22T13:27:42Z" finished-at="2020-06-22T13:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atrbStylesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_AtrbRolesTest_009@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="1377" started-at="2020-06-22T13:29:08Z" finished-at="2020-06-22T13:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ccs.testCases.TC_AtrbRolesTest_009 -->
+      <class name="com.ccs.testCases.TC_PackageTest_005">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_PackageTest_005@3abbfa04]" name="setup" is-config="true" duration-ms="3754" started-at="2020-06-22T13:21:45Z" finished-at="2020-06-22T13:21:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="packageTest()[pri:0, instance:com.ccs.testCases.TC_PackageTest_005@3abbfa04]" name="packageTest" duration-ms="81580" started-at="2020-06-22T13:21:49Z" finished-at="2020-06-22T13:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_PackageTest_005@3abbfa04]" name="tearDown" is-config="true" duration-ms="1129" started-at="2020-06-22T13:23:10Z" finished-at="2020-06-22T13:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ccs.testCases.TC_PackageTest_005 -->
+      <class name="com.ccs.testCases.TC_ContentTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_ContentTest_003@13deb50e]" name="setup" is-config="true" duration-ms="3754" started-at="2020-06-22T13:18:52Z" finished-at="2020-06-22T13:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contentTest()[pri:0, instance:com.ccs.testCases.TC_ContentTest_003@13deb50e]" name="contentTest" duration-ms="81599" started-at="2020-06-22T13:18:56Z" finished-at="2020-06-22T13:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_ContentTest_003@13deb50e]" name="tearDown" is-config="true" duration-ms="1255" started-at="2020-06-22T13:20:18Z" finished-at="2020-06-22T13:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ccs.testCases.TC_ContentTest_003 -->
+      <class name="com.ccs.testCases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@f6c48ac]" name="setup" is-config="true" duration-ms="3809" started-at="2020-06-22T13:17:41Z" finished-at="2020-06-22T13:17:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@f6c48ac]" name="LoginDDT" duration-ms="64310" started-at="2020-06-22T13:17:46Z" data-provider="LoginData" finished-at="2020-06-22T13:18:51Z">
           <params>
             <param index="0">
               <value>
@@ -34,13 +160,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@77cd7a0]" name="tearDown" is-config="true" duration-ms="1393" started-at="2020-06-18T13:29:10Z" finished-at="2020-06-18T13:29:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginDDT_002@f6c48ac]" name="tearDown" is-config="true" duration-ms="1589" started-at="2020-06-22T13:18:51Z" finished-at="2020-06-22T13:18:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ccs.testCases.TC_LoginDDT_002 -->
       <class name="com.ccs.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@4667ae56]" name="setup" is-config="true" duration-ms="6282" started-at="2020-06-18T13:26:57Z" finished-at="2020-06-18T13:27:03Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@464bee09]" name="setup" is-config="true" duration-ms="4893" started-at="2020-06-22T13:16:32Z" finished-at="2020-06-22T13:16:37Z">
           <params>
             <param index="0">
               <value>
@@ -51,15 +177,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@4667ae56]" name="loginTest" duration-ms="60166" started-at="2020-06-18T13:27:03Z" finished-at="2020-06-18T13:28:03Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@464bee09]" name="loginTest" duration-ms="62462" started-at="2020-06-22T13:16:37Z" finished-at="2020-06-22T13:17:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@4667ae56]" name="tearDown" is-config="true" duration-ms="1502" started-at="2020-06-18T13:28:03Z" finished-at="2020-06-18T13:28:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LoginTest_001@464bee09]" name="tearDown" is-config="true" duration-ms="1552" started-at="2020-06-22T13:17:40Z" finished-at="2020-06-22T13:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ccs.testCases.TC_LoginTest_001 -->
-    </test> <!-- ccs -->
+      <class name="com.ccs.testCases.TC_LayoutTest_006">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ccs.testCases.TC_LayoutTest_006@57fffcd7]" name="setup" is-config="true" duration-ms="3770" started-at="2020-06-22T13:23:11Z" finished-at="2020-06-22T13:23:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="layoutTest()[pri:0, instance:com.ccs.testCases.TC_LayoutTest_006@57fffcd7]" name="layoutTest" duration-ms="81178" started-at="2020-06-22T13:23:15Z" finished-at="2020-06-22T13:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- layoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ccs.testCases.TC_LayoutTest_006@57fffcd7]" name="tearDown" is-config="true" duration-ms="1246" started-at="2020-06-22T13:24:36Z" finished-at="2020-06-22T13:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ccs.testCases.TC_LayoutTest_006 -->
+    </test> <!-- Login Page -->
   </suite> <!-- CommunicationCloud -->
 </testng-results>

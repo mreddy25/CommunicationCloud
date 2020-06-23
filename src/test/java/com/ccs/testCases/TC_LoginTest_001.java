@@ -22,7 +22,8 @@ public class TC_LoginTest_001 extends BaseClass
 	public void loginTest() throws InterruptedException, IOException
 	{
 		
-		logger.info("URL is opened");
+		driver.get(baseURL);
+		logger.info("URL is opened: "+baseURL);
 		//here LoginPage- pageObject class
 		LoginPage lp = new LoginPage(driver);
 		Thread.sleep(3000);
@@ -32,7 +33,7 @@ public class TC_LoginTest_001 extends BaseClass
 		driver.findElement(By.id("proceed-link")).click();
 		
 		lp.setUserName(username);
-		logger.info("Entered username");
+		logger.info("Entered username: "+username);
 		
 		lp.setPassword(password);
 		logger.info("Entered password");
@@ -42,7 +43,9 @@ public class TC_LoginTest_001 extends BaseClass
 		Thread.sleep(45000);
 		
 		//validation
-		if(driver.findElement(By.id("drawerToggleButton")) != null)
+		boolean res=driver.getPageSource().contains("Dashboard"); 
+		if(res==true) 
+		//if(driver.findElement(By.id("drawerToggleButton")) != null)
 			
 			//if(driver.findElement(By.xpath("span[text()='Welcome']")) != null)
 		// if(driver.getTitle().equals("Welcome"))
@@ -51,7 +54,7 @@ public class TC_LoginTest_001 extends BaseClass
 		 { 
 			 //Thread.sleep(3000);
 			 Assert.assertTrue(true);
-			 logger.info("Login test passed");
+			 logger.info("Login test passed and Logged in as a: "+username);
 		 }
 		 else 
 		 {

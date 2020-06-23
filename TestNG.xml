@@ -7,25 +7,45 @@
 		<listener class-name="com.ccs.utilities.Reporting" />
 	</listeners>
 
-  	<test name="ccs">
+  	<test name="Login Page">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		<!-- we can run all the classes at a time. if you want to run indivisually, you can comment the class -->
-			<class name="com.ccs.testCases.TC_LoginTest_001" /><!-- here we have to specify test case name not the base calss name -->
-			<class name="com.ccs.testCases.TC_LoginDDT_002" /><!-- data driven test -->
-			<!-- <class name="com.ccs.testCases.TC_AddCustomerTest_003" /> -->
-
-		</classes>
-	</test>
-	
-	
-	<!-- if you want to run the test with different browsers at a time 
-	<test name="ccs 2">
-		<parameter name="browser" value="firefox" />
-		<classes>
+		<!-- we can run all the classes at a time. if you want to run individually, you can comment the class -->
+						
 			<class name="com.ccs.testCases.TC_LoginTest_001" />
+			<class name="com.ccs.testCases.TC_LoginDDT_002" /><!-- data driven test -->
+			<class name="com.ccs.testCases.TC_ContentTest_003" />
+			<class name="com.ccs.testCases.TC_DocumentTest_004" />
+			<class name="com.ccs.testCases.TC_PackageTest_005" />
+			<class name="com.ccs.testCases.TC_LayoutTest_006" />
+			<class name="com.ccs.testCases.TC_AtrbFontsTest_007" />
+			<class name="com.ccs.testCases.TC_AtrbStylesTest_008" />
+			<class name="com.ccs.testCases.TC_AtrbRolesTest_009" />
 		</classes>
 	</test>
-	-->
+	
+	
+	<!-- if you want to run the test with different browsers at a time -->
+	<!-- <test name="Content Page">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.ccs.testCases.TC_ContentTest_003" />
+		</classes>
+	</test>
+	
+	<test name="Document Page">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.ccs.testCases.TC_DocumentTest_004" />
+		</classes>
+	</test>
+	
+	<test name="Package Page">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.ccs.testCases.TC_PackageTest_005" />
+		</classes>
+	</test> -->
+	
 
 </suite>

@@ -4,16 +4,23 @@
   <listeners>
     <listener class-name="com.ccs.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="ccs(failed)">
+  <test thread-count="5" name="Login Page(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ccs.testCases.TC_LoginDDT_002">
+      <class name="com.ccs.testCases.TC_AtrbRolesTest_009">
+        <methods>
+          <include name="tearDown"/>
+          <include name="atrbStylesTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ccs.testCases.TC_AtrbRolesTest_009 -->
+      <class name="com.ccs.testCases.TC_AtrbFontsTest_007">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="LoginDDT" invocation-numbers="1"/>
+          <include name="atrbFontsTest"/>
         </methods>
-      </class> <!-- com.ccs.testCases.TC_LoginDDT_002 -->
+      </class> <!-- com.ccs.testCases.TC_AtrbFontsTest_007 -->
     </classes>
-  </test> <!-- ccs(failed) -->
+  </test> <!-- Login Page(failed) -->
 </suite> <!-- Failed suite [CommunicationCloud] -->
