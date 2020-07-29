@@ -8,10 +8,12 @@
 	</listeners>
 
   	<test name="Login Page">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="firefox" />
 		<classes>
 		<!-- we can run all the classes at a time. if you want to run individually, you can comment the class -->
-						
+					
+			  <class name="com.ccs.testCases.TC_CreateConfigID_012" />
+<!-- 			<class name="com.ccs.testCases.TC_ContentTest_003" />
 			<class name="com.ccs.testCases.TC_LoginTest_001" />
 			<class name="com.ccs.testCases.TC_LoginDDT_002" />
 			<class name="com.ccs.testCases.TC_ContentTest_003" />
@@ -20,7 +22,10 @@
 			<class name="com.ccs.testCases.TC_LayoutTest_006" />
 			<class name="com.ccs.testCases.TC_AtrbFontsTest_007" />
 			<class name="com.ccs.testCases.TC_AtrbStylesTest_008" />
-			<class name="com.ccs.testCases.TC_AtrbRolesTest_009" />
+			<class name="com.ccs.testCases.TC_AtrbRolesTest_009" /> 
+			<class name="com.ccs.testCases.TC_ContentDDT_010" />
+			<class name="com.ccs.testCases.TC_CreateContDDT_011" />
+			<class name="com.ccs.testCases.TC_CreateConfigID_012" />-->
 		</classes>
 	</test>
 	

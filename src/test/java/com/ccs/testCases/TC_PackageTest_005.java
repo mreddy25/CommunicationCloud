@@ -1,48 +1,38 @@
 package com.ccs.testCases;
 
 import java.io.IOException;
+
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.ccs.pageObjects.ContentPage;
 import com.ccs.pageObjects.LoginPage;
 
 public class TC_PackageTest_005 extends BaseClass {
 	@Test
 	public void packageTest() throws InterruptedException, IOException
 	{
+	
+		//calling SignIn method
+		TC_LoginTest_001 signIn = new TC_LoginTest_001();
+		signIn.signInTest();
 		
-		driver.get(baseURL);
-		logger.info("URL is opened: "+baseURL);
-		
-		//here LoginPage- pageObject class
-		LoginPage lp = new LoginPage(driver);
-		Thread.sleep(3000);
-		
-		//details page-
-		lp.clkkdetailBtn();
-		lp.clkproceedLink();
-		
-		lp.setUserName(username);
-		logger.info("Entered username: "+username);
-		
-		lp.setPassword(password);
-		logger.info("Entered password");
-		
-		lp.clickSignin();
-		logger.info("Click on Sign In");
-		Thread.sleep(45000);
+		LoginPage lp = new LoginPage(driver); 
+		ContentPage cp = new ContentPage(driver);
 		
 		lp.cliktogbtn();
-		logger.info("Click on Toggle button");
+		logger.info("Clicked on Toggle button");
 		Thread.sleep(3000);
 		
 		lp.clikconfiglnk();
 		logger.info("Selected Congiuration link");
 		
 		lp.clikcommlnk();
-		logger.info("Selected Communication link");
+		logger.info("Selected Configuration->Communication link link");
 		
 		lp.clikComPackConflnk();
-		logger.info("Selected Communication Document link");
+		logger.info("Selected Configuration->Communication link->Package link");
 		Thread.sleep(20000);
 		 
 		//validating Title
@@ -56,9 +46,17 @@ public class TC_PackageTest_005 extends BaseClass {
 		else 
 		{ 
 			logger.info("You are not at Document Package Landing page....");
-			captureScreen(driver,"documentPackageLandingPage"); 
+			captureScreen(driver,"documentPackageLandingPage_TC005"); 
 			Assert.assertTrue(false);
 		  }	 
 
+		Thread.sleep(3000);
+		cp.txtInputSearch("cc");
+		logger.info("Entered Package name in Search text box");
+		Thread.sleep(3000);
+
+		cp.ViewAllBtn();
+		logger.info("Clicked on 'View All Packages' to search the selected Package");
+		Thread.sleep(5000);
 	}
 }

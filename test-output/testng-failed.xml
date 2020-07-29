@@ -5,22 +5,15 @@
     <listener class-name="com.ccs.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="Login Page(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.ccs.testCases.TC_AtrbRolesTest_009">
+      <class name="com.ccs.testCases.TC_CreateConfigID_012">
         <methods>
-          <include name="tearDown"/>
-          <include name="atrbStylesTest"/>
+          <include name="ConIDCreate" invocation-numbers="0 1"/>
           <include name="setup"/>
-        </methods>
-      </class> <!-- com.ccs.testCases.TC_AtrbRolesTest_009 -->
-      <class name="com.ccs.testCases.TC_AtrbFontsTest_007">
-        <methods>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="atrbFontsTest"/>
         </methods>
-      </class> <!-- com.ccs.testCases.TC_AtrbFontsTest_007 -->
+      </class> <!-- com.ccs.testCases.TC_CreateConfigID_012 -->
     </classes>
   </test> <!-- Login Page(failed) -->
 </suite> <!-- Failed suite [CommunicationCloud] -->

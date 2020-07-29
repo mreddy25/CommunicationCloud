@@ -57,7 +57,6 @@ public LoginPage(WebDriver rdriver)
 	@CacheLookup
 	WebElement lnkContConfig;
 	
-	//configLanding/CommunicationContentConfig
 	@FindBy(id="configLanding/CommunicationDocumentConfig")
 	@CacheLookup
 	WebElement lnkDocConfig;	

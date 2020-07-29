@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-CommunicationCloud">
-              <span class="suite-name border-passed">CommunicationCloud</span>
+              <span class="suite-name border-failed">CommunicationCloud</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-CommunicationCloud" class="hide-methods passed suite-CommunicationCloud"> (hide)</a> <!-- hide-methods passed suite-CommunicationCloud -->
-                      <a href="#" panel-name="suite-CommunicationCloud" class="show-methods passed suite-CommunicationCloud"> (show)</a> <!-- show-methods passed suite-CommunicationCloud -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CommunicationCloud" class="hide-methods failed suite-CommunicationCloud"> (hide)</a> <!-- hide-methods failed suite-CommunicationCloud -->
+                      <a href="#" panel-name="suite-CommunicationCloud" class="show-methods failed suite-CommunicationCloud"> (show)</a> <!-- show-methods failed suite-CommunicationCloud -->
                     </span>
-                    <div class="method-list-content passed suite-CommunicationCloud">
+                    <div class="method-list-content failed suite-CommunicationCloud">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CommunicationCloud" title="com.ccs.testCases.TC_LoginDDT_002" hash-for-method="LoginDDT(munirathnam.singiri@oracle.com, Password@123)">LoginDDT(munirathnam.singiri@oracle.com, Password@123)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CommunicationCloud" title="com.ccs.testCases.TC_CreateConfigID_012" hash-for-method="ConIDCreate(munirr, Password@123, CC-BillingStatement2, CC-Billing Statement2, CC-BillingStatement2, CC-BillingS...)">ConIDCreate(munirr, Password@123, CC-BillingStatement2, CC-Billing Statement2, CC-BillingStatement2, CC-BillingS...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-CommunicationCloud -->
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CommunicationCloud" title="com.ccs.testCases.TC_CreateConfigID_012" hash-for-method="ConIDCreate(munirr, Password@123, CC-BillingStatement6, CC-Billing Statement6, CC-BillingStatement6, CC-BillingS...)">ConIDCreate(munirr, Password@123, CC-BillingStatement6, CC-Billing Statement6, CC-BillingStatement6, CC-BillingS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CommunicationCloud -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,22 +122,80 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CommunicationCloud" class="panel CommunicationCloud">
-          <div class="suite-CommunicationCloud-class-passed">
+          <div class="suite-CommunicationCloud-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.ccs.testCases.TC_LoginDDT_002</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.ccs.testCases.TC_CreateConfigID_012</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginDDT(munirathnam.singiri@oracle.com, Password@123)">
-                  </a> <!-- LoginDDT(munirathnam.singiri@oracle.com, Password@123) -->
-                  <span class="method-name">LoginDDT</span>
-                  <span class="parameters">(munirathnam.singiri@oracle.com, Password@123)</span>
+                  <a name="ConIDCreate(munirr, Password@123, CC-BillingStatement2, CC-Billing Statement2, CC-BillingStatement2, CC-BillingS...)">
+                  </a> <!-- ConIDCreate(munirr, Password@123, CC-BillingStatement2, CC-Billing Statement2, CC-BillingStatement2, CC-BillingS...) -->
+                  <span class="method-name">ConIDCreate</span>
+                  <span class="parameters">(munirr, Password@123, CC-BillingStatement2, CC-Billing Statement2, CC-BillingStatement2, CC-BillingStatementV3, CC-BillingStatement  Version3, 7/30/20, Thanks for Signing.)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #details\-button
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MSINGIRI-IN&apos;, ip: &apos;10.191.245.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.10.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200622191537, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2996, moz:profile: C:\Users\msingiri\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 552c5c88-4b48-4d0b-8eb0-8974dd84939a
+*** Element info: {Using=id, value=details-button}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.ccs.pageObjects.LoginPage.clkkdetailBtn(LoginPage.java:91)
+	at com.ccs.testCases.TC_CreateConfigID_012.ConIDCreate(TC_CreateConfigID_012.java:35)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConIDCreate(munirr, Password@123, CC-BillingStatement6, CC-Billing Statement6, CC-BillingStatement6, CC-BillingS...)">
+                  </a> <!-- ConIDCreate(munirr, Password@123, CC-BillingStatement6, CC-Billing Statement6, CC-BillingStatement6, CC-BillingS...) -->
+                  <span class="method-name">ConIDCreate</span>
+                  <span class="parameters">(munirr, Password@123, CC-BillingStatement6, CC-Billing Statement6, CC-BillingStatement6, CC-BillingStatement6V1, CC-BillingStatement6 Version1, 7/30/20, Thanks for Signing.)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #details\-button
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MSINGIRI-IN&apos;, ip: &apos;10.191.245.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.10.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200622191537, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2996, moz:profile: C:\Users\msingiri\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 552c5c88-4b48-4d0b-8eb0-8974dd84939a
+*** Element info: {Using=id, value=details-button}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.ccs.pageObjects.LoginPage.clkkdetailBtn(LoginPage.java:91)
+	at com.ccs.testCases.TC_CreateConfigID_012.ConIDCreate(TC_CreateConfigID_012.java:35)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CommunicationCloud-class-passed -->
+          </div> <!-- suite-CommunicationCloud-class-failed -->
         </div> <!-- panel CommunicationCloud -->
         <div panel-name="test-xml-CommunicationCloud" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -147,9 +210,9 @@
     &lt;listener class-name=&quot;com.ccs.utilities.Reporting&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Login Page&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.ccs.testCases.TC_LoginDDT_002&quot;/&gt;
+      &lt;class name=&quot;com.ccs.testCases.TC_CreateConfigID_012&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login Page --&gt;
 &lt;/suite&gt; &lt;!-- CommunicationCloud --&gt;
@@ -189,16 +252,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginDDT')
-data.setCell(0, 2, 'com.ccs.testCases.TC_LoginDDT_002')
-data.setCell(0, 3, 93157);
+data.setCell(0, 1, 'ConIDCreate')
+data.setCell(0, 2, 'com.ccs.testCases.TC_CreateConfigID_012')
+data.setCell(0, 3, 149309);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ConIDCreate')
+data.setCell(1, 2, 'com.ccs.testCases.TC_CreateConfigID_012')
+data.setCell(1, 3, 48711);
 window.suiteTableData['CommunicationCloud']= { tableData: data, tableDiv: 'times-div-CommunicationCloud'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-CommunicationCloud">
               </div> <!-- times-div-CommunicationCloud -->
             </div> <!-- times-div -->
@@ -224,18 +291,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.ccs.testCases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.ccs.testCases.TC_CreateConfigID_012</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
+                <span class="method-name">setup(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">LoginDDT(munirathnam.singiri@oracle.com, Password@123)</span>
-                <span class="method-start">6096 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ConIDCreate(munirr, Password@123, CC-BillingStatement6, CC-Billing Statement6, CC-BillingStatement6, CC-BillingS...)</span>
+                <span class="method-start">8297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ConIDCreate(munirr, Password@123, CC-BillingStatement2, CC-Billing Statement2, CC-BillingStatement2, CC-BillingS...)</span>
+                <span class="method-start">57020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">99268 ms</span>
+                <span class="method-start">206337 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

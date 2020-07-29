@@ -24,8 +24,8 @@ public class TC_LoginDDT_002 extends BaseClass
 		Thread.sleep(3000);
 		
 		//details page-
-		driver.findElement(By.id("details-button")).click();
-		driver.findElement(By.id("proceed-link")).click();
+		lp.clkkdetailBtn();
+		lp.clkproceedLink();
 		
 		lp.setUserName(user);
 		logger.info("Entered username: "+user);
@@ -34,7 +34,7 @@ public class TC_LoginDDT_002 extends BaseClass
 		logger.info("Entered password");
 		
 		lp.clickSignin();
-		logger.info("Click on Sign In");
+		logger.info("Clicked on Sign In");
 		Thread.sleep(45000);
 		
 		//validation
@@ -46,9 +46,9 @@ public class TC_LoginDDT_002 extends BaseClass
 		 else 
 		 {
 			 //call the capture screen method which is declared in base class
-			 captureScreen(driver,"loginTest");
+			 captureScreen(driver,"loginDDTTest_TC002");
 			 Assert.assertTrue(false);
-			 logger.info("Login test filed");
+			 logger.info("Login test failed");
 		 
 		 }
 		

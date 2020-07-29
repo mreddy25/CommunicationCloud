@@ -27,18 +27,17 @@ public class BaseClass {
 	
 	ReadConfig readconfig=new ReadConfig();
 	
-	//without read file
-	//public String baseURL="http://demo.guru99.com/v4/";
-	//if you have configured read file below code is the alternate for the above one
-	//getApplicationURL();- this method is defined in ReadConfig.java for get URL
 	public String baseURL=readconfig.getApplicationURL();
-	
 	public String username=readconfig.getUsername();
-	
 	public String password=readconfig.getPassword();
 	
-	public static WebDriver driver; 
+	//Content details
+	public String contsearchinput=readconfig.getContSearchInput();
+	public String bcontantname=readconfig.getBcontName();
+	public String bcontlongname=readconfig.getBcontLongName();
+	public String bcontdesc=readconfig.getBcontDesc();
 	
+	public static WebDriver driver; 
 	public static Logger logger;
 	
 	@Parameters("browser")//this parameter is to be specified in xml file
@@ -51,7 +50,6 @@ public class BaseClass {
 		
 		if(br.equals("chrome"))
 		{
-			
 			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
 			driver = new ChromeDriver();
 		}
@@ -72,7 +70,7 @@ public class BaseClass {
 		}
 				
 		//maximize the browser and page load
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		//driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		//driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -84,7 +82,7 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown()
 	{
-		driver.quit();
+		//driver.quit();
 		
 	}
 	

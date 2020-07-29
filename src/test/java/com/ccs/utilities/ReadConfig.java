@@ -43,6 +43,30 @@ public class ReadConfig {
 	String password=pro.getProperty("password");
 	return password;
 	}
+	public String getContSearchInput()
+	{
+	String contsearchinput=pro.getProperty("contsearchinput");
+	return contsearchinput;
+	}
+	
+	
+	public String getBcontName()
+	{
+	String bcontantname=pro.getProperty("bcontantname");
+	return bcontantname;
+	}
+	
+	public String getBcontLongName()
+	{
+	String bcontlongname=pro.getProperty("bcontlongname");
+	return bcontlongname;
+	}
+	
+	public String getBcontDesc()
+	{
+	String bcontdesc=pro.getProperty("bcontdesc");
+	return bcontdesc;
+	}
 	
 	//chrome browser method
 	public String getChromePath()

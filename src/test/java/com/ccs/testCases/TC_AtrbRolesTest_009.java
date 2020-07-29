@@ -2,9 +2,11 @@ package com.ccs.testCases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.ccs.pageObjects.ContentPage;
 import com.ccs.pageObjects.LoginPage;
 
 public class TC_AtrbRolesTest_009 extends BaseClass
@@ -13,29 +15,16 @@ public class TC_AtrbRolesTest_009 extends BaseClass
 	@Test
 	public void atrbStylesTest() throws InterruptedException, IOException
 	{
-		driver.get(baseURL);
-		logger.info("URL is opened: "+baseURL);
 		
-		//here LoginPage- pageObject class
-		LoginPage lp = new LoginPage(driver);
-		Thread.sleep(3000);
+		//calling SignIn method
+		TC_LoginTest_001 signIn = new TC_LoginTest_001();
+		signIn.signInTest();
 		
-		//details page-
-		lp.clkkdetailBtn();
-		lp.clkproceedLink();
-		
-		lp.setUserName(username);
-		logger.info("Entered username: "+username);
-		
-		lp.setPassword(password);
-		logger.info("Entered password");
-		
-		lp.clickSignin();
-		logger.info("Click on Sign In");
-		Thread.sleep(45000);
+		LoginPage lp = new LoginPage(driver); 
+		ContentPage cp = new ContentPage(driver);
 		
 		lp.cliktogbtn();
-		logger.info("Click on Toggle button");
+		logger.info("Clicked on Toggle button");
 		Thread.sleep(3000);
 		
 		lp.clikconfiglnk();
@@ -49,11 +38,11 @@ public class TC_AtrbRolesTest_009 extends BaseClass
 		Thread.sleep(3000);
 		
 		lp.clikAtrbStyleConflnk();
-		logger.info("Selected Configuration->Communication->Attributes->Styles link");
+		logger.info("Selected Configuration->Communication->Attributes->Roles link");
 		Thread.sleep(20000);
 		 
 		//validating Title
-		boolean res=driver.getPageSource().contains("Document Styles"); 
+		boolean res=driver.getPageSource().contains("Document Roles"); 
 		if(res==true) 
 		{
 			Assert.assertTrue(true);
@@ -63,10 +52,18 @@ public class TC_AtrbRolesTest_009 extends BaseClass
 		else 
 		{ 
 			logger.info("You are not at Document Styles Landing page....");
-			captureScreen(driver,"documentStylesLandingPage"); 
+			captureScreen(driver,"documentStylesLandingPage_TC009"); 
 			Assert.assertTrue(false);
 		  }	 
 
+		Thread.sleep(3000);
+		cp.txtInputSearch("cc");
+		logger.info("Entered Role name in Search text box");
+		Thread.sleep(3000);
+
+		cp.ViewAllBtn();
+		logger.info("Clicked on 'View All Roles' to search the selected Role");
+		Thread.sleep(5000);
 	}
 
 
