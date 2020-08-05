@@ -225,6 +225,7 @@ public class TC_ContentTest_003 extends BaseClass {
 		if (driver.findElement(By.xpath("//span[text()='Finish' and @class='oj-button-text']")).isEnabled()) {
 		driver.findElement(By.xpath("//span[text()='Finish'and @class='oj-button-text']")).click();
 			logger.info("Clicked on Finish Button to complete the Content creation process");
+			System.out.println("new line");
 		}
 
 
