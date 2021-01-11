@@ -24,8 +24,8 @@ public class TC_LoginDDT_002 extends BaseClass
 		Thread.sleep(3000);
 		
 		//details page-
-		lp.clkkdetailBtn();
-		lp.clkproceedLink();
+		lp.detailBtn().click();
+		lp.proceedLnk().click();
 		
 		lp.setUserName(user);
 		logger.info("Entered username: "+user);

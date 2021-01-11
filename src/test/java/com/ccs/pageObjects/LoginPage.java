@@ -1,9 +1,13 @@
 package com.ccs.pageObjects;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
@@ -16,13 +20,32 @@ public LoginPage(WebDriver rdriver)
 	
 	}
 
+//By detailButton = By.id("details-button");
+
+/*public void cliclkdetailBtn()
+{
+	driver.findElement(detailButton).c
+	this.click(detailButton);
+}*/
+	//@FindBy(id="details-button")
+	//@CacheLookup
+	//WebElement detailBtn;
+	
 	@FindBy(id="details-button")
 	@CacheLookup
-	WebElement detailBtn;
+	WebElement detailsBtn;
+	
+	@FindBy(id="details-button")
+	@CacheLookup
+	private List<WebElement> noDetaislBtn;
 	
 	@FindBy(id="proceed-link")
 	@CacheLookup
 	WebElement proceedLnk;
+	
+	@FindBy(id="proceed-link")
+	@CacheLookup
+	private List<WebElement> noProceedLnk;
 
 	@FindBy(how = How.XPATH, using ="//div[@class='oj-flex-item oj-sm-12']/input")
 	@CacheLookup
@@ -35,6 +58,10 @@ public LoginPage(WebDriver rdriver)
 	@FindBy(how = How.XPATH, using ="//oj-button[@id='idcs-signin-basic-signin-form-submit']")
 	@CacheLookup
 	WebElement signInBtn;
+	
+	@FindBy(how = How.XPATH, using ="//li[text()='Dashboard']")
+	@CacheLookup
+	WebElement loginSuccess;
 	
 	@FindBy(id="signoff")
 	@CacheLookup
@@ -86,14 +113,24 @@ public LoginPage(WebDriver rdriver)
 	WebElement lnkComRoleConfig;
 		
 	//Methods	
-	public void clkkdetailBtn()
+	
+	public WebElement detailBtn()
 	{
-		detailBtn.click();	
+		return detailsBtn;
+	}
+	public List<WebElement> noDetaislBtn()
+	{
+		return noDetaislBtn;
 	}
 	
-	public void clkproceedLink()
+	public WebElement proceedLnk()
 	{
-		proceedLnk.click();
+		return proceedLnk;
+	}
+	
+	public List<WebElement> noProceedLnk()
+	{
+		return noProceedLnk;
 	}
 	public void setUserName(String uname)
 	{
@@ -108,6 +145,12 @@ public LoginPage(WebDriver rdriver)
 	{
 		signInBtn.click();	
 	}
+	
+	public WebElement loginSuccess() 
+	{
+		return loginSuccess;
+	}
+
 	public void clickSignoff()
 	{
 		lnkSignoff.click();

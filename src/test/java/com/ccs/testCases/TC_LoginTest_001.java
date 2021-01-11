@@ -30,8 +30,28 @@ public class TC_LoginTest_001 extends BaseClass
 		Thread.sleep(3000);
 		
 		//details page-
-		lp.clkkdetailBtn();
-		lp.clkproceedLink();
+		//lp.clkkdetailBtn();
+		//lp.clkproceedLink();
+		
+		// if details button is exists then click otherwise skip
+		if (lp.noDetaislBtn().isEmpty()) {
+			logger.info("Details-button is not dispayed to click");
+			Thread.sleep(2000);
+		} else {
+			lp.detailBtn().click();
+			logger.info("Clicked on 'details-button'");
+			Thread.sleep(2000);
+		}
+
+		// if Proceed link is exists then click otherwise skip
+		if (lp.noProceedLnk().isEmpty()) {
+			logger.info("Proceed-link is not displayed to click");
+			Thread.sleep(2000);
+		} else {
+			lp.proceedLnk().click();
+			logger.info("Clicked on 'proceed-link'");
+			Thread.sleep(2000);
+		}
 		
 		lp.setUserName(username);
 		logger.info("Entered username: "+username);
@@ -41,9 +61,12 @@ public class TC_LoginTest_001 extends BaseClass
 		
 		lp.clickSignin();
 		logger.info("Clicked on Sign In");
-		Thread.sleep(150000);
+		Thread.sleep(50000);
 		
 		//validation
+		lp.loginSuccess();
+		logger.info("Login test passed and Logged in as a: "+username);
+/*		
 		boolean res=driver.getPageSource().contains("Dashboard"); 
 		if(res==true) 
 					 
@@ -59,7 +82,7 @@ public class TC_LoginTest_001 extends BaseClass
 			 logger.info("Login test filed");
 		 
 		 }
-		
+*/	
 		//sign off from the application
 		
 		

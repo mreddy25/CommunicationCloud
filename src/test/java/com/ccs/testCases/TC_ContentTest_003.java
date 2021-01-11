@@ -91,7 +91,8 @@ public class TC_ContentTest_003 extends BaseClass {
 
 		Thread.sleep(3000);
 		// driver.findElement(By.id("Text|rb")).click();
-		cp.radioBtnClk();
+		//cp.radioBtnClk();
+		cp.radioBtn().click();
 		logger.info("Selected Text radio button to create new Content");
 		Thread.sleep(3000);
 
@@ -179,8 +180,9 @@ public class TC_ContentTest_003 extends BaseClass {
 
 		Thread.sleep(2000);
 //CKEditor		
-		WebElement ckeditor = driver
-				.findElement(By.xpath("//*[@class='cke_wysiwyg_frame cke_reset' and @aria-describedby='cke_28']"));
+		//WebElement ckeditor = driver.findElement(By.xpath("//*[@class='cke_wysiwyg_frame cke_reset' and @aria-describedby='cke_28']"));
+		
+		WebElement ckeditor = driver.findElement(By.className("ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline ck-blurred"));
 		ckeditor.click();
 		Thread.sleep(2000);
 		ckeditor.sendKeys("Dear Customer");

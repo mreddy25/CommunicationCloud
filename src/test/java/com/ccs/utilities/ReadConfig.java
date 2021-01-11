@@ -43,6 +43,12 @@ public class ReadConfig {
 	String password=pro.getProperty("password");
 	return password;
 	}
+	
+	public String getConfigID()
+	{
+	String configid=pro.getProperty("configID");
+	return configid;
+	}
 	public String getContSearchInput()
 	{
 	String contsearchinput=pro.getProperty("contsearchinput");

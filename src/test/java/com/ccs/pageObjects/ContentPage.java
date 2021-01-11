@@ -19,6 +19,17 @@ public class ContentPage {
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
+	
+	//Content Type selection window
+	@FindBy(how = How.XPATH, using ="//span[text()='Choose Content Type']")
+	@CacheLookup
+	WebElement contSelectionWindow;
+	
+	public WebElement contSelectionWindow() 
+	{
+		return contSelectionWindow;
+	}
+	
 	//driver.findElement(By.cssSelector("[aria-label=expand]")).click();
 	@FindBy(how = How.CSS, using ="[aria-label=expand]")
 	@CacheLookup
@@ -41,7 +52,8 @@ public class ContentPage {
 	@CacheLookup
 	WebElement txtInputSearch;
 		
-	@FindBy(how = How.ID, using ="btnViewAll")
+	//@FindBy(how = How.ID, using ="btnViewAll")
+	@FindBy(how = How.ID, using ="[['viewAllButton'+$unique]]")
 	@CacheLookup
 	WebElement btnViewAll;
 	
@@ -68,25 +80,58 @@ public class ContentPage {
 	WebElement continueBaseBtn;
 	
 	
-	@FindBy(how = How.TAG_NAME, using ="Add Identification")
+	@FindBy(how = How.XPATH, using ="//span[text()='Add Identification']")
 	@CacheLookup
-	WebElement winAddIdent;
+	WebElement addIdentificationWind;
 	
-	@FindBy(how = How.ID, using ="textinput|input")
+	//@FindBy(how = How.ID, using ="textinput|input")
+	@FindBy(how = How.XPATH, using ="//*[starts-with(@id,'textinput')]")
 	@CacheLookup
 	WebElement baseContName;
 
-	@FindBy(how = How.ID, using ="textArea|input")
+	//@FindBy(how = How.ID, using ="textArea|input")
+	@FindBy(how = How.XPATH, using ="//*[starts-with(@id,'textArea')]")
 	@CacheLookup
 	WebElement baseContLongName;
 	
-	@FindBy(how = How.XPATH, using ="//*[@id='textArea|input' and @maxlength='4000']")
+	//@FindBy(how = How.XPATH, using ="//*[@id='textArea|input' and @maxlength='4000']")
+	@FindBy(how = How.XPATH, using ="//*[starts-with(@id,'textArea' and @maxlength='4000')]")
 	@CacheLookup
 	WebElement baseContDesc;
 	
 	@FindBy(how = How.TAG_NAME, using ="Create Content Version")
 	@CacheLookup
 	WebElement CreateContVersion;
+	
+	//ck-toolbar
+	@FindBy(how = How.XPATH, using ="//*[contains(@class,'ck-toolbar')]")
+	@CacheLookup
+	WebElement ckToolbar;
+	
+	//CKEDITOR 
+	@FindBy(how = How.XPATH, using ="//*[contains(@class,'ck-editor__editable')]")
+	@CacheLookup
+	WebElement ckEditor;
+	
+	//Success message
+	@FindBy(how = How.XPATH, using ="//span[text()='Success!']")
+	@CacheLookup
+	WebElement successMsgWind;
+	
+	public WebElement successMsgWind() 
+	{
+		return successMsgWind;
+	}
+	
+		
+	public WebElement ckToolbar() 
+	{
+		return ckToolbar;
+	}
+	public WebElement ckEditor() 
+	{
+		return ckEditor;
+	}
 
 	public boolean windCreatContVer() 
 	{
@@ -138,9 +183,9 @@ public class ContentPage {
 		createBtn.click();
 	}
 	
-	public void radioBtnClk() 
+	public WebElement radioBtn() 
 	{
-		radioBtn.click();
+		return radioBtn;
 	}
 	
 	public boolean resultstWind() 
@@ -163,9 +208,9 @@ public class ContentPage {
 		continueBaseBtn.click();
 	}
 
-	public boolean addIdentWind() 
+	public WebElement addIdentificationWind() 
 	{
-		return winAddIdent.isDisplayed();
+		return addIdentificationWind;
 	}
 	
 

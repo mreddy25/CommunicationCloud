@@ -27,10 +27,14 @@ public class BaseClass {
 	
 	ReadConfig readconfig=new ReadConfig();
 	
+	//login details
 	public String baseURL=readconfig.getApplicationURL();
 	public String username=readconfig.getUsername();
 	public String password=readconfig.getPassword();
 	
+	//Config ID
+	
+	public String configID=readconfig.getConfigID();
 	//Content details
 	public String contsearchinput=readconfig.getContSearchInput();
 	public String bcontantname=readconfig.getBcontName();
@@ -77,12 +81,14 @@ public class BaseClass {
 		
 		//enter base URL
 		//driver.get(baseURL);
+		//logger.info("Browser is opened with the URL: "+ baseURL);
 	}
 		
 	@AfterClass
 	public void tearDown()
 	{
-		//driver.quit();
+		driver.quit();
+		//logger.info("Browser is closed ");
 		
 	}
 	

@@ -4,16 +4,56 @@
   <listeners>
     <listener class-name="com.ccs.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Login Page(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="CRUD-Content(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ccs.testCases.TC_CreateConfigID_012">
+      <class name="com.ccs.testCases.TC_DeleteContent_016">
         <methods>
-          <include name="ConIDCreate" invocation-numbers="0 1"/>
-          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="DeleteContDDT" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.ccs.testCases.TC_CreateConfigID_012 -->
+      </class> <!-- com.ccs.testCases.TC_DeleteContent_016 -->
+      <class name="com.ccs.testCases.TC_ReadContent_014">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ReadContentDDT" invocation-numbers="0 1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ccs.testCases.TC_ReadContent_014 -->
+      <class name="com.ccs.testCases.TC_CreateContDDT_011">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ContCreateDDT" invocation-numbers="0 1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ccs.testCases.TC_CreateContDDT_011 -->
+      <class name="com.ccs.testCases.TC_UpdateContent_017">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ReadContentDDT" invocation-numbers="0 1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ccs.testCases.TC_UpdateContent_017 -->
     </classes>
-  </test> <!-- Login Page(failed) -->
+  </test> <!-- CRUD-Content(failed) -->
+  <test thread-count="5" name="CRUD-Styles(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ccs.testCases.TC_UpdateStyles_020">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="updateStyles" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.ccs.testCases.TC_UpdateStyles_020 -->
+      <class name="com.ccs.testCases.TC_ReadStyle_019">
+        <methods>
+          <include name="tearDown"/>
+          <include name="readStyles" invocation-numbers="0 1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ccs.testCases.TC_ReadStyle_019 -->
+    </classes>
+  </test> <!-- CRUD-Styles(failed) -->
 </suite> <!-- Failed suite [CommunicationCloud] -->

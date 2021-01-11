@@ -35,8 +35,28 @@ public class TC_DocumentTest_004 extends BaseClass {
 		Thread.sleep(3000);
 
 		// details page-
-		lp.clkkdetailBtn();
-		lp.clkproceedLink();
+		//lp.clkkdetailBtn();
+		//lp.clkproceedLink();
+		
+		// if details button is exists then click otherwise skip
+		if (lp.noDetaislBtn().isEmpty()) {
+			logger.info("Details-button is not dispayed to click");
+			Thread.sleep(2000);
+		} else {
+			lp.detailBtn().click();
+			logger.info("Clicked on 'details-button'");
+			Thread.sleep(2000);
+		}
+
+		// if Proceed link is exists then click otherwise skip
+		if (lp.noProceedLnk().isEmpty()) {
+			logger.info("Proceed-link is not displayed to click");
+			Thread.sleep(2000);
+		} else {
+			lp.proceedLnk().click();
+			logger.info("Clicked on 'proceed-link'");
+			Thread.sleep(2000);
+		}
 
 		lp.setUserName(uname);
 		logger.info("Entered username: " + uname);

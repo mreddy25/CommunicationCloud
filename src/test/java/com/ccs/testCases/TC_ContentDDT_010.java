@@ -30,9 +30,13 @@ public class TC_ContentDDT_010 extends BaseClass{
 	
 	{
 		// calling SignIn method
-
 		TC_LoginTest_001 signIn = new TC_LoginTest_001();
 		signIn.signInTest();
+		
+		//MapConfig Id
+		TC_MapConfigID_013 mapConfigId = new TC_MapConfigID_013();
+		mapConfigId.mapConfigID();
+		
 		LoginPage lp = new LoginPage(driver);
 		ContentPage cp = new ContentPage(driver);
 		Thread.sleep(3000);
@@ -50,28 +54,40 @@ public class TC_ContentDDT_010 extends BaseClass{
 
 		lp.clikComContConflnk();
 		logger.info("Selected Configuration->Communication->Content link");
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 
 		// Validating Title page
-		boolean res = driver.getPageSource().contains("Document Content");
+		boolean res = driver.getPageSource().contains("Content");
 		if (res == true) {
 			Assert.assertTrue(true);
-			logger.info("You are at Document Content Landing page....");
+			logger.info("You are at Content Landing page....");
 
 		} else {
-			logger.info("You are not at Document Content Landing page....");
+			logger.info("You are not at Content Landing page....");
 			captureScreen(driver, "documentContentLandingPage_TC010");
 			Assert.assertTrue(false);
 		}
-
+/*
 		Thread.sleep(3000);
 		cp.txtInputSearch(contsearchinput);
 		logger.info("Entered Content name in Search text box");
 		Thread.sleep(3000);
-
-		cp.ViewAllBtn();
+*/
+/*		if (driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).isDisplayed())
+		{
+		
+			driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).click();
+			Thread.sleep(3000);
+			driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).sendKeys(contsearchinput);
+			logger.info("Entered Content name in Search text box: "+contsearchinput);
+			Thread.sleep(3000);
+		}
+	*/	
+/*		cp.ViewAllBtn();
 		logger.info("Clicked on 'View All Contents' to search the selected Content");
 		Thread.sleep(5000);
+	
+
 
 		// boolean Results = driver.findElement(By.xpath("//span[text()='Results']")) !=
 		// null;
@@ -83,10 +99,10 @@ public class TC_ContentDDT_010 extends BaseClass{
 			captureScreen(driver, "CreateResults_TC010");
 			Assert.assertTrue(false);
 		}
-
+*/	
 		cp.CreateBtn();
 		logger.info("Clicked on 'Plus(+) icon button to create new Content");
-		Thread.sleep(5000);
+		Thread.sleep(25000);
 
 		// driver.getTitle().equals("Creating New Content");
 		/*	
@@ -106,11 +122,14 @@ public class TC_ContentDDT_010 extends BaseClass{
 			logger.info("title is:"+actual_txt);
 		}
 		*/
-		boolean res1 = driver.findElement(By.xpath("//span[text()='Creating']")) != null;
+		boolean res1 = driver.findElement(By.xpath("//span[text()='Creating New Content']")) != null;
 		 if (res1 == true) {
 			Assert.assertTrue(true);
-			logger.info("You are at Create new content window");
+			logger.info("You are at 'Creating New Content' window");
 
+		} else if (driver.findElement(By.xpath("//span[text()='Creating New Content']")).isDisplayed()){
+			logger.info("You are at 'Creating New Content' window - 2");
+			Thread.sleep(3000);
 		} else {
 			logger.info("You are not at Create new content window");
 			captureScreen(driver, "CreateNewContent_TC010");
@@ -118,21 +137,31 @@ public class TC_ContentDDT_010 extends BaseClass{
 		}
 
 		Thread.sleep(3000);
-		cp.radioBtnClk();
+		cp.radioBtn().click();
+		//cp.radioBtnClk();
 		logger.info("Selected Text radio button to create new Content");
 		Thread.sleep(3000);
-
+		
+		if (driver.findElement(By.xpath("//span[text()='Continue']")).isDisplayed()) {
+			driver.findElement(By.xpath("//span[text()='Continue']")).click();
+			logger.info("Clicked on 'continue' in Dialog Box");
+			Thread.sleep(3000);
+		}else {
 		cp.continueBtn();
 		logger.info("Clicked on continue button 1/4 Choose Content Type");
 		Thread.sleep(5000);
-		
+		}
 		// Create Base Content
 		boolean cad = driver.getPageSource().contains("Add Identification");
 		// boolean cad = cp.addIdentWind();
 		if (cad == true) {
 			Assert.assertTrue(true);
 			logger.info("You are at 2/4 Add Identification dialog window");
-		} else {
+		} else if (driver.findElement(By.xpath("//span[text()='Add Identification']")).isDisplayed()){
+			logger.info("You are at 2/4 Add Identification dialog window- 2");
+			Thread.sleep(5000);			
+		}
+		else {
 			logger.info("You are not at 2/4 Add Identification dialog window");
 			captureScreen(driver, "ContentAddIdentWindow_TC010");
 			Assert.assertTrue(false);
@@ -145,11 +174,43 @@ public class TC_ContentDDT_010 extends BaseClass{
 		cp.baseContLongName(bconLName);
 		logger.info("Entered Content  long name");
 		Thread.sleep(3000);
-
-		cp.baseContDesc(bconDesc);
-		logger.info("Entered Content description");
-		Thread.sleep(3000);
-
+		
+		if (driver.findElements(By.tagName("textarea")).get(1).isEnabled())
+		{
+			driver.findElements(By.tagName("textarea")).get(1).sendKeys(bconDesc);
+			logger.info("Entered Layout Description as : "+bconDesc);
+			//FindElement(By.xpath("//span[contains(@class,'title') and contains(text(),'Administration')]"))
+		}else if (driver.findElement(By.xpath("//*[starts-with(@id,'textArea') and @maxlength='4000']")).isDisplayed()) {
+			driver.findElement(By.xpath("//*[starts-with(@id,'textArea') and @maxlength='4000']")).sendKeys(bconDesc);
+			logger.info("Entered Content  desc 1 name");
+			Thread.sleep(3000);
+		}else if (driver.findElements(By.tagName("oj-text-area")).get(1).isEnabled())
+			{
+				//driver.findElements(By.tagName("oj-text-area")).get(1).sendKeys(bconDesc);
+				driver.findElements(By.tagName("oj-text-area")).get(1).sendKeys(Keys.chord(Keys.CONTROL, "a"),bconDesc);
+			logger.info("Entered Content  desc 2 name:"+bconDesc);
+			Thread.sleep(3000);
+			}else if (driver.findElements(By.tagName("textarea")).get(1).isEnabled())
+			{
+				driver.findElements(By.tagName("textarea")).get(1).sendKeys(bconDesc);
+				logger.info("Entered Layout Description as : "+bconDesc);
+				Thread.sleep(3000);
+			}else if (driver.findElement(By.className("text-area oj-textarea oj-form-control oj-component oj-text-field oj-text-field-label-inside oj-has-no-value oj-complete")).isDisplayed()) {
+				driver.findElement(By.className("text-area oj-textarea oj-form-control oj-component oj-text-field oj-text-field-label-inside oj-has-no-value oj-complete")).click();
+				Thread.sleep(3000);
+				driver.findElement(By.className("text-area oj-textarea oj-form-control oj-component oj-text-field oj-text-field-label-inside oj-has-no-value oj-complete")).sendKeys(bconDesc);
+				logger.info("Entered Layout Description 123 as : "+bconDesc);
+			}
+				else 
+	
+					//else if (driver.findElement(By.xpath("//input[text()='Description']")).isEnabled())
+					{
+					driver.findElement(By.xpath("//input[text()='Description']")).click();
+					Thread.sleep(3000);
+						driver.findElement(By.xpath("//input[text()='Description']")).sendKeys(bconDesc);
+						
+						logger.info("Entered Content Description 111 : "+bconDesc);
+		}
 		cp.continueBaseBtn();
 		logger.info("Clicked on continue button in '2/4 Add Identification' window");
 		Thread.sleep(5000);

@@ -6,14 +6,40 @@
 	<listeners>
 		<listener class-name="com.ccs.utilities.Reporting" />
 	</listeners>
+ 	  	<test name="CRUD-Content">
+			<parameter name="browser" value="chrome" />
+				<classes>
+			
+					<class name="com.ccs.testCases.TC_CreateContDDT_011" />	
+					<class name="com.ccs.testCases.TC_ReadContent_014" />
+					<class name="com.ccs.testCases.TC_UpdateContent_017" />
+					<class name="com.ccs.testCases.TC_DeleteContent_016" />
+				</classes>
+		</test>
+		
+	  	<test name="CRUD-Styles">
+			<parameter name="browser" value="chrome" />
+				<classes>
+					<!-- we can run all the classes at a time. if you want to run individually, you can comment the class -->
+					 <!--  <class name="com.ccs.testCases.TC_CreateStyles_018" />-->
+					<class name="com.ccs.testCases.TC_ReadStyle_019" />
+					 <class name="com.ccs.testCases.TC_UpdateStyles_020" />
+					<!-- <class name="com.ccs.testCases.TC_DeleteStyle_021" /> -->
+				</classes>
+		</test>
+				
+<!--
+  	<test name="ccs-All">
+		<parameter name="browser" value="chrome" />
+		<classes> 
+		  	<class name="com.ccs.testCases.TC_CreateStyles_018" />
+		 	 <class name="com.ccs.testCases.TC_CreateContDDT_011" />	
+			<class name="com.ccs.testCases.TC_UpdateContent_017" />
+			<class name="com.ccs.testCases.TC_DeleteContent_016" />
 
-  	<test name="Login Page">
-		<parameter name="browser" value="firefox" />
-		<classes>
-		<!-- we can run all the classes at a time. if you want to run individually, you can comment the class -->
-					
-			  <class name="com.ccs.testCases.TC_CreateConfigID_012" />
-<!-- 			<class name="com.ccs.testCases.TC_ContentTest_003" />
+			<class name="com.ccs.testCases.TC_CreateContDDT_011" />	
+			<class name="com.ccs.testCases.TC_ReadContent_014" />
+			<class name="com.ccs.testCases.TC_ContentTest_003" />
 			<class name="com.ccs.testCases.TC_LoginTest_001" />
 			<class name="com.ccs.testCases.TC_LoginDDT_002" />
 			<class name="com.ccs.testCases.TC_ContentTest_003" />
@@ -25,16 +51,16 @@
 			<class name="com.ccs.testCases.TC_AtrbRolesTest_009" /> 
 			<class name="com.ccs.testCases.TC_ContentDDT_010" />
 			<class name="com.ccs.testCases.TC_CreateContDDT_011" />
-			<class name="com.ccs.testCases.TC_CreateConfigID_012" />-->
+			<class name="com.ccs.testCases.TC_CreateConfigID_012" />
 		</classes>
-	</test>
+	</test> -->
 	
 	
 	<!-- if you want to run the test with different browsers at a time -->
-	<!-- <test name="Content Page">
+	<!-- <test name="CRUD-Document">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.ccs.testCases.TC_ContentTest_003" />
+			<class name="com.ccs.testCases.TC_DocumentTest_004" />
 		</classes>
 	</test>
 	

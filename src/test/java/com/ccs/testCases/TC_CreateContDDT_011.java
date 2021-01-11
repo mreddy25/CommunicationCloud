@@ -1,258 +1,270 @@
 package com.ccs.testCases;
 
 import java.io.IOException;
-
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.ccs.pageObjects.CCSPageObjects;
 import com.ccs.pageObjects.ContentPage;
 import com.ccs.pageObjects.LoginPage;
 import com.ccs.utilities.XLUtils;
 
-public class TC_CreateContDDT_011 extends BaseClass
-{
+public class TC_CreateContDDT_011 extends BaseClass {
 
-	@Test(dataProvider="ContData")
-	
-	public void ContCreateDDT(String uname, String pwd, String bconName, String bconLName, String bconDesc, String conVname, String contDesc, String activeDate, String cKEditData) throws InterruptedException, IOException
-	
+	String timeStamp = new SimpleDateFormat("yy.MM.dd.HH.mm.ss").format(new Date());
+
+	@Test(dataProvider = "ContData")
+
+	public void ContCreateDDT(String uname, String pwd, String bconName, String bconLName, String bconDesc,
+			String conVname, String contDesc, String activeDate, String cKEditData)
+			throws InterruptedException, IOException
+
 	{
 		// calling SignIn method
 		driver.get(baseURL);
 		Thread.sleep(3000);
-		logger.info("URL is opened: "+baseURL);
-		//here LoginPage- pageObject class
-		
+		logger.info("URL is opened: " + baseURL);
+		Thread.sleep(3000);
+
+		// here LoginPage- pageObject class
 		LoginPage lp = new LoginPage(driver);
 		ContentPage cp = new ContentPage(driver);
-		Thread.sleep(3000);
-		
-		//details page-
-		lp.clkkdetailBtn();
-		lp.clkproceedLink();
-		
+		CCSPageObjects cob = new CCSPageObjects(driver);		
+
+		// if details button is exists then click otherwise skip
+		if (lp.noDetaislBtn().isEmpty()) {
+			logger.info("Details-button is not dispayed to click");
+			Thread.sleep(2000);
+		} else {
+			lp.detailBtn().click();
+			logger.info("Clicked on 'details-button'");
+			Thread.sleep(2000);
+		}
+
+		// if Proceed link is exists then click otherwise skip
+		if (lp.noProceedLnk().isEmpty()) {
+			logger.info("Proceed-link is not displayed to click");
+			Thread.sleep(2000);
+		} else {
+			lp.proceedLnk().click();
+			logger.info("Clicked on 'proceed-link'");
+			Thread.sleep(2000);
+		}
+
+		// enter username
 		lp.setUserName(uname);
-		logger.info("Entered username: "+uname);
-		
+		logger.info("Entered username: " + uname);
+
+		// enter password
 		lp.setPassword(pwd);
 		logger.info("Entered password");
-		
+
+		// click on Sign In button
 		lp.clickSignin();
 		logger.info("Clicked on Sign In");
 		Thread.sleep(45000);
+
+		// validation window name
 		
-		//validation
-		boolean Logintitle=driver.getPageSource().contains("Dashboard"); 
-		if(Logintitle==true) 
-					 
-		 { 
-			 Assert.assertTrue(true);
-			 logger.info("Login test passed and Logged in as a: "+uname);
+		if(lp.loginSuccess().isDisplayed())
+		{
+			logger.info("Login test passed and Logged in as a: " + uname);	
+		}else{
+				 //call the capture screen method which is declared in base class
+				 captureScreen(driver,"loginTest_TC0011");
+				 Assert.assertTrue(false);
+				 logger.info("Login test failed");
 		 }
-		 else 
-		 {
-			 //call the capture screen method which is declared in base class
-			 captureScreen(driver,"loginTest_TC011");
-			 Assert.assertTrue(false);
-			 logger.info("Login test filed");
-		 
-		 }
-		
-		
-		lp.cliktogbtn();
-		logger.info("Clicked on Toggle button");
-		Thread.sleep(3000);
 
-		lp.clikconfiglnk();
-		logger.info("Selected Congiuration link");
+		// Calling MapConfig Id function
+		TC_MapConfigID_013 mapConfigId = new TC_MapConfigID_013();
+		mapConfigId.mapConfigID();
 
-		lp.clikcommlnk();
-		logger.info("Selected Configuration->Communication link");
-
-		lp.clikComContConflnk();
-		logger.info("Selected Configuration->Communication->Content link");
-		Thread.sleep(10000);
-
-		// Validating Title page
-		boolean res = driver.getPageSource().contains("Document Content");
-		if (res == true) {
-			Assert.assertTrue(true);
-			logger.info("You are at Document Content Landing page....");
-
-		} else {
-			logger.info("You are not at Document Content Landing page....");
-			captureScreen(driver, "documentContentLandingPage_TC010");
-			Assert.assertTrue(false);
-		}
-
-		Thread.sleep(3000);
-		cp.txtInputSearch(contsearchinput);
-		logger.info("Entered Content name in Search text box");
-		Thread.sleep(3000);
-
-		cp.ViewAllBtn();
-		logger.info("Clicked on 'View All Contents' to search the selected Content");
+		// Calling Class- Go to Content Landing page
+		ContentLandingPage ContLandingPage = new ContentLandingPage();
+		ContLandingPage.ContLandingPage();
 		Thread.sleep(5000);
-
-		// boolean Results = driver.findElement(By.xpath("//span[text()='Results']")) !=
-		// null;
-		if (cp.resultstWind() == true) {
-			Assert.assertTrue(true);
-			logger.info("selected content/s will be listed in results window");
-		} else {
-			logger.info("selected items are not liseds in results window");
-			captureScreen(driver, "SearchResults_TC011");
-			Assert.assertTrue(false);
-		}
-
-		cp.CreateBtn();
+		
+		cob.createBtn().click();
 		logger.info("Clicked on 'Plus(+) icon button to create new Content");
 		Thread.sleep(5000);
 
-		// driver.getTitle().equals("Creating New Content");
-		/*	
-		String expected_txt = "Creating New Content";
-		WebElement header_txt_1 = driver.findElement(By.xpath("//span[text()='Creating']"));
-		WebElement header_txt_2 = driver.findElement(By.xpath("//span[text()='New']"));
-		WebElement header_txt_3 = driver.findElement(By.xpath("//span[text()='Content']"));
-		String actual_txt1=header_txt_1.getText();
-		String actual_txt2=header_txt_2.getText();
-		String actual_txt3=header_txt_3.getText();
-		
-		String actual_txt=actual_txt1+actual_txt2+actual_txt3;
-		Assert.assertEquals(actual_txt, expected_txt);
-		
-		if (expected_txt == actual_txt)
-		{
-			logger.info("title is:"+actual_txt);
-		}
-		*/
-		boolean res1 = driver.findElement(By.xpath("//span[text()='Creating']")) != null;
-		 if (res1 == true) {
+		//Validating Content Selection window name
+		//boolean res1 = driver.findElement(By.xpath("//span[text()='Choose Content Type']")) != null;
+		if (cp.contSelectionWindow().isDisplayed())		
+		 {
 			Assert.assertTrue(true);
-			logger.info("You are at Create new content window");
-
+			logger.info("You are at 'Choose Content Type' window");
 		} else {
-			logger.info("You are not at Create new content window");
-			captureScreen(driver, "CreateNewContent_TC011");
+			logger.info("You are not at Choose Content Type window");
+			captureScreen(driver, "ContSelectionWindow_TC010");
 			Assert.assertTrue(false);
 		}
 
 		Thread.sleep(3000);
-		cp.radioBtnClk();
+		cp.radioBtn().click();
 		logger.info("Selected Text radio button to create new Content");
 		Thread.sleep(3000);
 
-		cp.continueBtn();
-		logger.info("Clicked on continue button 1/4 Choose Content Type");
-		Thread.sleep(5000);
-		
+		//if (driver.findElement(By.xpath("//span[text()='Continue']")).isDisplayed())
+		if (cob.continueBtn().isDisplayed()){
+			cob.continueBtn().click();
+			logger.info("Clicked on continue button 1/4 Choose Content Type");
+			Thread.sleep(3000);
+		}
+	
 		// Create Base Content
-		boolean cad = driver.getPageSource().contains("Add Identification");
-		// boolean cad = cp.addIdentWind();
-		if (cad == true) {
-			Assert.assertTrue(true);
+		//boolean cad = driver.getPageSource().contains("Add Identification");
+		
+		if (cp.addIdentificationWind().isDisplayed()) {
 			logger.info("You are at 2/4 Add Identification dialog window");
-		} else {
+			Thread.sleep(5000);
+			} else {
 			logger.info("You are not at 2/4 Add Identification dialog window");
-			captureScreen(driver, "ContentAddIdentWindow_TC011");
+			captureScreen(driver, "ContentAddIdentWindow_TC010");
 			Assert.assertTrue(false);
 		}
 		
-		cp.baseContName(bconName);
-		logger.info("Entered Content name ");
+		//EnterName for content
+		if(cob.baseNameField().isEnabled())
+		{
+			cob.baseNameField().sendKeys(bconName + timeStamp);
+			logger.info("Entered Base Content name as : " + bconName + timeStamp);
+			Thread.sleep(3000);
+		}else {
+		cp.baseContName(bconName + timeStamp);
+		logger.info("Entered Base Content name as-2 : " + bconName + timeStamp);
 		Thread.sleep(3000);
-
-		cp.baseContLongName(bconLName);
-		logger.info("Entered Content  long name");
+		}
+		
+		//enter Long Name for Content
+		if(cob.longNameField().isEnabled())
+		{
+			cob.longNameField().sendKeys(bconLName + timeStamp);
+			logger.info("Entered Base Content Long name as : " + bconLName + timeStamp);
+			Thread.sleep(3000);
+		}else {
+		cp.baseContLongName(bconLName + timeStamp);
+		logger.info("Entered Base Content  long name as -2:" + bconLName + timeStamp);
 		Thread.sleep(3000);
-
-		cp.baseContDesc(bconDesc);
-		logger.info("Entered Content description");
-		Thread.sleep(3000);
-
-		cp.continueBaseBtn();
+		}		
+		
+		//Enter Description for Content		
+		if (cob.baseDescriptionField().get(1).isEnabled())
+		{
+			cob.baseDescriptionField().get(1).sendKeys(bconDesc + timeStamp);
+			logger.info("Entered Base Contant Description as : " + bconDesc + timeStamp);
+		}
+		/*	
+		cob.continueBtn().click();
 		logger.info("Clicked on continue button in '2/4 Add Identification' window");
-		Thread.sleep(5000);
-
+		Thread.sleep(18000);
+*/
+	
+		//Continue button
+		if(driver.findElement(By.xpath("//span[text()='Continue']")).isDisplayed())
+		{
+			driver.findElement(By.xpath("//span[text()='Continue']")).click();
+			logger.info("Clicked on continue button in '2/4 Add Identification' window");
+			Thread.sleep(18000);
+		}
+		
+		
+		// validating window title
 		driver.getTitle().equals("Create Content Version");
 		logger.info("You are at 'Create Content Version' window");
 		Thread.sleep(3000);
 
-		driver.findElement(By.xpath(
-				"//*[@class='oj-inputtext-input oj-text-field-input oj-component-initnode' and @id='textinput|input']"))
-				.sendKeys(conVname);
-		logger.info("Entered Contant Version Name");
-		Thread.sleep(3000);
+		// enter content version name
+		
+		if(cob.versionNameField().isDisplayed())
+		{
+			cob.versionNameField().sendKeys(conVname + timeStamp);
+			logger.info("Entered Contant Version Name:" + conVname + timeStamp);
+			Thread.sleep(3000);
+		}
 
-		driver.findElement(By.xpath(
-				"//*[@class='oj-textarea-input oj-text-field-input oj-component-initnode' and @id='textArea|input']"))
-				.sendKeys(contDesc);
-		logger.info("Entered Contant Description");
-		Thread.sleep(3000);
+		// enter cont description
+		//if (driver.findElement(By.xpath("//*[starts-with(@id,'textArea')]")).isDisplayed()) {
+		if (cob.descriptionField().isDisplayed())
+		{
+			cob.descriptionField().sendKeys(contDesc + timeStamp);
+			logger.info("Entered Contant Description:" + contDesc + timeStamp);
+			Thread.sleep(3000);
+		}
+	
+		// enter active date
+		//driver.findElement(By.xpath("//*[starts-with(@id,'fromDate')]"))
+		if (cob.dateField().isEnabled()) {
+			cob.dateField().sendKeys(activeDate);
+			logger.info("Entered Active Date: " + activeDate);
+			Thread.sleep(10000);
+		}
 
-		driver.findElement(By.xpath(
-				"//*[@class='oj-inputdatetime-input oj-text-field-input oj-component-initnode' and @id='fromDate|input']"))
-				.sendKeys(activeDate);
-		logger.info("Entered Active Date");
-		Thread.sleep(5000);
+		// click on continue
+		//cob.continueBtn().isDisplayed();
+		//cob.continueBtn().click();
+	
+		if (driver.findElement(By.xpath("//span[contains(@class,'oj-button-text') and contains(text(),'Continue')]")).isDisplayed())
+		{
+			driver.findElement(By.xpath("//span[contains(@class,'oj-button-text') and contains(text(),'Continue')]")).click();
+			logger.info("clicked continue in contenet version window to create base content ");
+		}
 
-		driver.findElement(By.xpath("//span[text()='Continue']")).click();
-		logger.info("clicked continue in contenet version window to create base content ");
+		Thread.sleep(150000);
 
-		Thread.sleep(20000);
-
-		boolean cke = driver.findElement(By.xpath("//span[text()='Editor toolbars']")) != null;
-		if (cke == true) {
-			Assert.assertTrue(true);
-			logger.info("Editor tool bar is displayed");
+		// ck toolbar
+		
+		//driver.findElement(By.xpath("//*[contains(@class,'ck-toolbar')]")).isDisplayed()
+		if (cp.ckToolbar().isDisplayed()) {
+			logger.info("ck-toolbar is displayed");
 		} else {
-			logger.info("Editor tool bar is not displayed");
-			captureScreen(driver, "EditorToolBar_TC011");
+			logger.info("ck-toolbar bar is not displayed");
+			captureScreen(driver, "CKEditorToolBar_TC0011");
 			Assert.assertTrue(false);
 		}
 
-		Thread.sleep(2000);
-//CKEditor		
-		WebElement ckeditor = driver
-				.findElement(By.xpath("//*[@class='cke_wysiwyg_frame cke_reset' and @aria-describedby='cke_28']"));
-		ckeditor.click();
-		Thread.sleep(2000);
-		ckeditor.sendKeys("Dear Customer");
-		logger.info("entered 1st line in 'cke_wysiwyg_frame cke_reset'");
-		Thread.sleep(2000);
+		// CKEditor
+		//WebElement ckeditor = driver.findElement(By.xpath("//*[contains(@class,'ck-editor__editable')]"));
+		if (cp.ckEditor().isDisplayed()) {
+			cp.ckEditor().click();
+			logger.info("Clicked on ckeditor'");
+			Thread.sleep(2000);
+		}
 
-		// note- test is not appearing when we enter test in 1st line)
-		ckeditor.sendKeys(Keys.ENTER);
-		logger.info("pressed ENTER button in key board");
-		Thread.sleep(2000);
+		/*
+		 * ckeditor.sendKeys("Dear Customer,"); ckeditor.sendKeys(Keys.ENTER);
+		 */
 
-		ckeditor.sendKeys("Dear Customer,");
+		// enter data in ckeditor
+		cp.ckEditor().sendKeys(cKEditData);
 		logger.info("Entered content details in 'CKEditor'");
 		Thread.sleep(3000);
-		
-		ckeditor.sendKeys(Keys.ENTER);
-		logger.info("pressed ENTER button in key board");
-		Thread.sleep(2000);
-		
-		ckeditor.sendKeys(cKEditData);
-		logger.info("Entered content details in 'CKEditor'");
-		Thread.sleep(3000);
-			
-		//Click Continue
-		if(driver.findElement(By.xpath("//span[text()='Continue' and @class='oj-button-text']")).isDisplayed()) {
+
+		// Click Continue
+		//driver.findElement(By.xpath("//span[text()='Continue' and @class='oj-button-text']"))
+/*		if(cob.continueBtn().isDisplayed()) {
+			cob.continueBtn().click();	
+			logger.info("Clicked on Continue after entering the content details in CKEditor");
+		}
+*/		
+		if (driver.findElement(By.xpath("//span[text()='Continue' and @class='oj-button-text']")).isDisplayed()) {
 			driver.findElement(By.xpath("//span[text()='Continue' and @class='oj-button-text']")).click();
-		logger.info(" Clicked on Continue after entering the content details in CKEditor");
+			logger.info("Clicked on Continue after entering the content details in CKEditor");
 		}
 
 		Thread.sleep(20000);
 
 		// Content Creation status window
-		boolean successWind = driver.findElement(By.xpath("//span[text()='Success!']")).isDisplayed();
+		driver.findElement(By.xpath("//span[text()='Success!']")).isDisplayed();
+		boolean successWind = cp.successMsgWind().isDisplayed();
 		if (successWind == true) {
 			Assert.assertTrue(true);
 			logger.info("Content creation windows is displayed with 'Success'");
@@ -262,111 +274,68 @@ public class TC_CreateContDDT_011 extends BaseClass
 			Assert.assertTrue(false);
 		}
 		Thread.sleep(2000);
-		
+
 		// Finish Button-
-		if (driver.findElement(By.xpath("//span[text()='Finish' and @class='oj-button-text']")).isEnabled()) {
-		driver.findElement(By.xpath("//span[text()='Finish'and @class='oj-button-text']")).click();
+		//driver.findElement(By.xpath("//span[text()='Finish' and @class='oj-button-text']"))
+		
+		if (cob.finishBtn().isEnabled()) {
+			cob.finishBtn().click();
 			logger.info("Clicked on Finish Button to complete the Content creation process");
 		}
 
-	//validating content title after creation
-		
+		// validating content title after creation
 		Thread.sleep(30000);
-
-		Boolean contTitle =driver.findElement(By.tagName("h1")).isDisplayed();
+		//Boolean contTitle = driver.findElement(By.tagName("h1")).isDisplayed();
+		Boolean contTitle = cob.assetTitle().isDisplayed();
 		if (contTitle == true) {
 			Assert.assertTrue(true);
-			logger.info("Content is created with the name of :"+conVname);
+			logger.info("Content is created with the name of :" + conVname + timeStamp);
 		} else {
-			logger.info("Content is not created with the name of :"+conVname);
+			logger.info("Content is not created with the name of :" + conVname + timeStamp);
 			captureScreen(driver, "ContCreatSuccess_TC011");
 			Assert.assertTrue(false);
 		}
-	
-		/*
-		driver.findElement(By.id("drawerToggleButton")).click();
+
+		// Sign off the application
+		Thread.sleep(8000);
+		TC_SignOff signOff = new TC_SignOff();
+		signOff.signOff();
+		logger.info("User is Signed off from the application ");
+
+		// Clear browser history
+		driver.get("chrome://settings/clearBrowserData");
+		driver.findElement(By.xpath("//settings-ui")).sendKeys(Keys.ENTER);
+		logger.info("Browser Data: Clear history, CCookies and Cache are cleared ");
 		Thread.sleep(3000);
-		lp.clickSignoff();
-		logger.info("User is Sign off");
-		*/
 		
-		if (driver.findElement(
-				By.xpath("//span[text()='Application Navigation' and @class='demo-icon icon-ham-menu m-all-0 oj-button-icon oj-start']")).isDisplayed())
-				{
-				driver.findElement(
-				By.xpath("//span[text()='Application Navigation' and @class='demo-icon icon-ham-menu m-all-0 oj-button-icon oj-start']")).click();
-				logger.info("Application Navigation button is clicked");
-				} else if (driver.findElement(By.id("drawerToggleButton")).isDisplayed()){
-					driver.findElement(By.id("drawerToggleButton")).click();
-					logger.info("toggle button is clicked");
-					
-					Thread.sleep(5000);
-				}
-					else if(driver.findElement(By.id("signoff")).isDisplayed()) {
-						driver.findElement(By.id("signoff")).click();
-						logger.info("signoff button is clicked");
-						
-					}else {
-						driver.findElement(By.id("drawerToggleButton")).click();
-						Thread.sleep(3000);
-						lp.clickSignoff();
-						logger.info("User is Sign off");
-					}
-				
-		if (driver.findElement(By.id("signoff")).isDisplayed()) {
-			driver.findElement(By.id("signoff")).click();
-			logger.info("User is Sign off 1");
-			Thread.sleep(3000);
-		} else {
-			driver.findElement(
-					By.xpath("//span[text()='Previous' and @class='oj-button-icon oj-start oj-navigationlist-previous-icon oj-component-icon oj-clickable-icon-nocontext']"))
-					.click();
-			logger.info("click previous Arrow 1");
-			Thread.sleep(5000);
-		}
+		//Close the browser
+		//driver.quit();
+		//logger.info("Browser is closed ");
 
-		if (driver
-				.findElement(
-						By.xpath("//span[text()='Previous' and @class='oj-button-text oj-helper-hidden-accessible']"))
-				.isDisplayed()) {
-			driver.findElement(
-					By.xpath("//span[text()='Previous' and @class='oj-button-text oj-helper-hidden-accessible']"))
-					.click();
-			logger.info("click previous Arrow 2");
-			Thread.sleep(5000);
-		} else {
-			lp.clickSignoff();
-			logger.info("User is Sign off  after clickin previous arrow 1");
-			Thread.sleep(5000);
-
-		}
-
-		lp.clickSignoff();
-		logger.info("User is Sign off last");
-		Thread.sleep(5000);
-		
-		
 	}
-	
-	
-	  @DataProvider(name="ContData") String [][] getData() throws IOException {
-	  String path=System.getProperty("user.dir")+"/src/test/java/com/ccs/testData/LoginData.xlsx";
-	  
-	  //read the data from xlsx //get row count
-	  int rownum=XLUtils.getRowCount(path, "ContentData");//path- xl location path and 	  sheet1 - sheet name //get cell count 
-	  int colcount=XLUtils.getCellCount(path, "ContentData", 1); //here 1- row number
-	  
-	  String contentdata[][]=new String[rownum][colcount];
-	  
-	  for(int i=1;i<=rownum;i++)//outer for loop for row 
-		  { 
-		  	for(int j=0;j<colcount;j++)//inner for loop for column
-		  		{
-		  		contentdata[i-1][j]=XLUtils.getCellData(path, "ContentData", i, j);
-		  		} 
-		  	}
-	  
-	  return contentdata;
-	  } 
+
+	// data read from excel
+	@DataProvider(name = "ContData")
+	String[][] getData() throws IOException {
+		String path = System.getProperty("user.dir") + "/src/test/java/com/ccs/testData/LoginData.xlsx";
+
+		// read the data from xlsx //get row count
+		int rownum = XLUtils.getRowCount(path, "ContentData");// path- xl location path and sheet1 - sheet name //get
+
+		// cell count
+		int colcount = XLUtils.getCellCount(path, "ContentData", 1); // here 1- row number
+
+		String contentdata[][] = new String[rownum][colcount];
+
+		for (int i = 1; i <= rownum; i++)// outer for loop for row
+		{
+			for (int j = 0; j < colcount; j++)// inner for loop for column
+			{
+				contentdata[i - 1][j] = XLUtils.getCellData(path, "ContentData", i, j);
+			}
+		}
+
+		return contentdata;
+	}
 
 }

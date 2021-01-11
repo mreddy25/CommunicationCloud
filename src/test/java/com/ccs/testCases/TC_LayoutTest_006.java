@@ -37,8 +37,28 @@ public class TC_LayoutTest_006 extends BaseClass
 		Thread.sleep(3000);
 		
 		//details page-
-		lp.clkkdetailBtn();
-		lp.clkproceedLink();
+		//lp.clkkdetailBtn();
+		//lp.clkproceedLink();
+		
+		// if details button is exists then click otherwise skip
+		if (lp.noDetaislBtn().isEmpty()) {
+			logger.info("Details-button is not dispayed to click");
+			Thread.sleep(2000);
+		} else {
+			lp.detailBtn().click();
+			logger.info("Clicked on 'details-button'");
+			Thread.sleep(2000);
+		}
+
+		// if Proceed link is exists then click otherwise skip
+		if (lp.noProceedLnk().isEmpty()) {
+			logger.info("Proceed-link is not displayed to click");
+			Thread.sleep(2000);
+		} else {
+			lp.proceedLnk().click();
+			logger.info("Clicked on 'proceed-link'");
+			Thread.sleep(2000);
+		}
 		
 		lp.setUserName(uname);
 		logger.info("Entered username: " +uname);
@@ -48,7 +68,7 @@ public class TC_LayoutTest_006 extends BaseClass
 
 		lp.clickSignin();
 		logger.info("Clicked on Sign In");
-		Thread.sleep(200000);
+		Thread.sleep(40000);
 				
 		//validation
 		boolean Logintitle=driver.getPageSource().contains("Dashboard"); 
@@ -67,6 +87,9 @@ public class TC_LayoutTest_006 extends BaseClass
 		 
 		 }
 		
+		//MapConfig Id
+				TC_MapConfigID_013 mapConfigId = new TC_MapConfigID_013();
+				mapConfigId.mapConfigID();
 		lp.cliktogbtn();
 		logger.info("Clicked on Toggle button");
 		Thread.sleep(3000);
@@ -82,7 +105,7 @@ public class TC_LayoutTest_006 extends BaseClass
 		Thread.sleep(40000);
 		 
 		//validating Title
-		boolean res=driver.getPageSource().contains("Document Layouts"); 
+		boolean res=driver.getPageSource().contains("Layouts"); 
 		if(res==true) 
 		{
 			Assert.assertTrue(true);
@@ -98,22 +121,18 @@ public class TC_LayoutTest_006 extends BaseClass
 
 		Thread.sleep(3000);
 		//lap.txtInputSearch(sName);
-		if (driver.findElement(By.id("_ojcustomelem8_SearchBox|input")).isDisplayed())
+		
+/*		
+		if (driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).isDisplayed())
 		{
-			driver.findElement(By.id("_ojcustomelem8_SearchBox|input")).sendKeys(sName);
+		
+			driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).click();
+			Thread.sleep(3000);
+			driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).sendKeys(sName);
 			logger.info("Entered Layout name in Search text box: "+sName);
 			Thread.sleep(3000);
-		}else if(driver.findElement(By.id("oj-inputtext-input oj-text-field-input oj-component-initnode")).isEnabled())
-		{
-			driver.findElement(By.id("oj-inputtext-input oj-text-field-input oj-component-initnode")).sendKeys(sName);
-			logger.info("Entered Layout name in Search text box 2: "+sName);
-			Thread.sleep(3000);	
-		}else
-		{
-		driver.findElement(By.className("full-width search-box oj-inputtext oj-form-control oj-component oj-text-field oj-complete oj-hover"));
-		logger.info("Entered Layout name in Search text box 3: "+sName);
-		Thread.sleep(3000);
 		}
+	
 		
 		if (driver.findElement(By.xpath("//span[text()='View All Layouts']")).isDisplayed())
 				{
@@ -134,12 +153,12 @@ public class TC_LayoutTest_006 extends BaseClass
 			captureScreen(driver, "SearchResults_TC006");
 			Assert.assertTrue(false);
 		}
-		
+*/		
 		// click create button
 		cp.CreateBtn();
 		logger.info("Clicked on 'Plus(+) icon button to create new Layout");
 		Thread.sleep(5000);		
-		
+	/*	
 		//validating window name
 		boolean res1 = driver.findElement(By.xpath("//span[text()='Creating']")) != null;
 		if (driver.getPageSource().contains("Creating New Layout")) {
@@ -161,7 +180,7 @@ public class TC_LayoutTest_006 extends BaseClass
 			captureScreen(driver, "CreateNewLayout_TC006");
 			Assert.assertTrue(false);
 		}
-
+*/
 			
 		// provide layout details details
 				
@@ -213,42 +232,14 @@ public class TC_LayoutTest_006 extends BaseClass
 			logger.info("Entered Layout Description as : "+layDesc);
 		}
 
-		else if (driver.findElement(By.xpath("//input[text()='Description']")).isEnabled())
+		else
 		{
 			driver.findElement(By.xpath("//input[text()='Description']")).sendKeys(layDesc);
 			
-			logger.info("Entered Layout Description : "+layDesc);
+			logger.info("Entered Layout Description 2 : "+layDesc);
 
-		}else {
-			
-			driver.findElement(By.xpath("//textarea[text()='Description']")).sendKeys("muni");
-		
-			logger.info("Entered Layout Description : ");
 		}
-		//driver.findElements(By.xpath(“//*submit”)).get(2).click(); 
 		
-		//textarea[class="oj-textarea-input oj-text-field-input oj-component-initnode"][maxlength="4000"]] 
-		//layout Description
-		
-/*		
-		if (driver.findElement(By.xpath("//*[@class='oj-textarea-input oj-text-field-input oj-component-initnode' and @id='textArea_ojcustomelem72|input']")).isEnabled())
-			
-		{
-			driver.findElement(By.xpath("//*[@class='oj-textarea-input oj-text-field-input oj-component-initnode' and @id='textArea_ojcustomelem72|input']")).sendKeys(layDesc);
-			logger.info("Entered Layout Description : "+layDesc);
-		}else if (driver.findElement(By.xpath("//*[starts-with(@id,'textArea' or @maxlength='4000']")).isEnabled())
-				
-			{
-				driver.findElement(By.xpath("//*[starts-with(@id,'textArea' or @maxlength='4000']")).sendKeys(layDesc);
-				logger.info("Entered Layout Description 3 : "+layDesc);
-			}else{
-				driver.findElement(By.xpath("//span[text()='Description']")).sendKeys(layDesc);
-				
-		//cp.baseContDesc(layDesc);
-		logger.info("Entered Layout description 4:"+layDesc);
-		Thread.sleep(3000);
-		}
-*/		
 		//Set Units - validating section name
 		driver.getTitle().equals("Set Units:");
 		logger.info("You are at 'Set Units:' window");
@@ -375,23 +366,26 @@ public class TC_LayoutTest_006 extends BaseClass
 		driver.findElement(By.xpath("//span[text()='Right']")).sendKeys(mRight);
 		 */
 		
-		if (driver.findElement(By.id("Continue")).isEnabled())
-		{
-		driver.findElement(By.id("Continue")).click();
-		logger.info("Clicked on Continue");
-		Thread.sleep(8000);
-		} else {
+		if (driver.findElement(By.xpath("//span[text()='Continue']")).isDisplayed()) {
 			driver.findElement(By.xpath("//span[text()='Continue']")).click();
-			logger.info("Clicked on Continue 2");
-			Thread.sleep(3000);
+			logger.info("Clicked on 'continue' in Dialog Box");
+			Thread.sleep(18000);
 		}
-		
+			
+		Thread.sleep(60000);
 		boolean ma = driver.getPageSource().contains("Manage Associations");
-		if (ma == true) {
-			Assert.assertTrue(true);
-			logger.info("You are at 2/3 Manage Associations window");
+		
+		if(driver.findElement(By.xpath("//span[text()='Manage Associations']")).isDisplayed())
+		{
+			driver.findElement(By.xpath("//span[text()='Manage Associations']")).click();
+			logger.info("You are at 2/3 Manage Associations window1");
 			Thread.sleep(3000);
-		} else {
+		
+	}else if (ma == true) {
+			Assert.assertTrue(true);
+			logger.info("You are at 2/3 Manage Associations window2");
+			Thread.sleep(3000);
+		}else {
 			logger.info("You are not at 2/3 Manage Associations window");
 			captureScreen(driver, "LayoutAss_TC006");
 			Assert.assertTrue(false);
@@ -424,45 +418,28 @@ public class TC_LayoutTest_006 extends BaseClass
 			logger.info("clicked on Use Existing Style|rb");
 			Thread.sleep(7000);
 			
-		}else
-		{
-			driver.findElement(By.xpath("//span[@class='oj-choice-item oj-enabled oj-selected']")).click();
-			logger.info("clicked 2 on Use Existing Style|rb");
-			Thread.sleep(3000);
 		}
 		
 		//click on continue
+		//FindElement(By. XPath("//span[contains(@class,'title') and contains(text(),'Administration')]"))
 		
-		//html/body/div/div[2]/oj-dialog/div[3]/div/div/div[2]/oj-button
-		if(driver.findElement(By.xpath("//span[@class='oj-button-text' and id='Continue']")).isEnabled())
+		if (driver.findElement(By.xpath("//span[text()='Continue']")).isDisplayed()) {
+			driver.findElement(By.xpath("//span[text()='Continue']")).click();
+			logger.info("Clicked on 'continue' in Dialog Box");
+			Thread.sleep(18000);
+					
+		}else if(driver.findElement(By.xpath("//span[contains(@class,'oj-button-text') and text()='Continue']")).isEnabled())
 		{
-			driver.findElement(By.xpath("//span[@class='oj-button-text' and id='Continue']")).click();
+			driver.findElement(By.xpath("//span[contains(@class,'oj-button-text') and text()='Continue']")).click();
 			logger.info("clicked 1 continue");
 			Thread.sleep(3000);	
 		}else {
-		driver.findElement(By.xpath("//span[@id='Continue']")).click();
-		logger.info("clicked 2 on Use Existing Style|rb");
+		//driver.findElements(By.tagName("oj-button")).get(1).click();
+		driver.findElement(By.cssSelector("Continue")).click();
+		logger.info("clicked 2 on continue");
 		Thread.sleep(3000);
 		}
-		/*
-		
-		if (driver.findElement(By.id("Continue")).isEnabled())
-		{
-		driver.findElement(By.id("Continue")).click();
-		logger.info("Clicked 2 on Continue");
-		Thread.sleep(8000);
-		}
-		else if (driver.findElement(By.className("full-width oj-button-primary oj-button oj-component oj-enabled oj-button-full-chrome oj-button-text-only oj-complete oj-default")).isEnabled())
-		{
-			driver.findElement(By.className("full-width oj-button-primary oj-button oj-component oj-enabled oj-button-full-chrome oj-button-text-only oj-complete oj-default")).click();
-
-		logger.info("clicked 3 on Continue button to add styles");
-		Thread.sleep(10000);
-	} else if(driver.findElement(By.xpath("//span[text()='Continue']")).isEnabled()) {
-			driver.findElement(By.xpath("//span[text()='Continue']")).click();
-			logger.info("Clicked 4 on Continue");
-			Thread.sleep(3000);
-		}else
+	/*
 		{
 			//driver.findElements(By.tagName("oj-button"))
 			//driver.findElements(By.xpath("//oj-button[contains(@class, 'FINISH|NEXT']")).
@@ -475,7 +452,14 @@ public class TC_LayoutTest_006 extends BaseClass
 		//full-width oj-button-primary oj-button oj-component oj-enabled oj-button-full-chrome oj-button-text-only oj-complete oj-default
 	//		search
 		
-		if (driver.findElement(By.xpath("//*[@class='oj-inputtext-input oj-text-field-input oj-component-initnode' and @id='_ojcustomelem93_SearchBox|input']")).isEnabled())
+		if (driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).isDisplayed()) {
+
+			driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).click();
+			Thread.sleep(3000);
+			driver.findElement(By.xpath("//*[starts-with(@id,'SearchBox')]")).sendKeys(styleName);
+			logger.info("Entered style name in search box:"+styleName);
+			Thread.sleep(3000);
+		}else if (driver.findElement(By.xpath("//*[@class='oj-inputtext-input oj-text-field-input oj-component-initnode' and @id='_ojcustomelem93_SearchBox|input']")).isEnabled())
 		{
 			driver.findElement(By.xpath("//*[@class='oj-inputtext-input oj-text-field-input oj-component-initnode' and @id='_ojcustomelem93_SearchBox|input']")).sendKeys(styleName);
 			logger.info("Entered style name in search box:"+styleName);
@@ -489,9 +473,9 @@ public class TC_LayoutTest_006 extends BaseClass
 		
 		//select search name
 		
-		if (driver.findElement(By.xpath("//span[contains(@class,'list-text')]  [contains(text(), styleName)]")).isDisplayed())
+		if (driver.findElement(By.xpath("//span[contains(@class,'list-text')] [contains(text(), styleName)]")).isDisplayed())
 		{
-			driver.findElement(By.xpath("//span[contains(@class,'list-text')]  [contains(text(), styleName)]")).click();
+			driver.findElement(By.xpath("//span[contains(@class,'list-text')] [contains(text(), styleName)]")).click();
 			logger.info("clicked on selected  11"+styleName);
 			Thread.sleep(3000);	
 		}else
